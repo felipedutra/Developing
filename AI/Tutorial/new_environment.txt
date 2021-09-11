@@ -1,0 +1,4 @@
+To install ibm environment on a mac/linux:
+curl -sL https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer | bash
+
+https://cloud.ibm.com/services/speech-to-text/crn%3Av1%3Abluemix%3Apublic%3Aspeech-to-text%3Aus-south%3Aa%2F163d11baf5554edaac69a9007d3db409%3Aa0cf6a65-09d5-48f5-bd96-c6373892a853%3A%3A?paneId=gettingStarted&new=true

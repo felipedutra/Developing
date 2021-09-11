@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1604939745 source:d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\competicao.cpp
+	"Competicao.h"
+
+1591035763 d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\competicao.h
+	"Modalidade.h"
+
+1604523791 d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\modalidade.h
+	<iostream>
+	<stdexcept>
+	"Equipe.h"
+
+1586178674 d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\equipe.h
+	<iostream>
+	<string.h>
+
+1586178672 source:d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\equipe.cpp
+	"Equipe.h"
+
+1604531584 source:d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\modalidade.cpp
+	"Modalidade.h"
+	"EquipeRepetida.h"
+
+1604533301 source:d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\main.cpp
+	"Modalidade.h"
+	"Equipe.h"
+	"Competicao.h"
+	<iostream>
+
+1604531518 source:d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\equiperepetida.cpp
+	"EquipeRepetida.h"
+
+1604531532 d:\felipe 2\documentos usp\pcs3111\aula 9\fornecido\equiperepetida.h
+	<stdexcept>
+	<string>
+

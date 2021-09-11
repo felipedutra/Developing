@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1580753394 source:d:\felipe 2\documentos usp\pcs3111\aula 10\exemplos\ex03\main.cpp
+	<iostream>
+	<fstream>
+

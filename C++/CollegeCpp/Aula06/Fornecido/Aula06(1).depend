@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1601317488 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 6\fornecido\equipe.cpp
+	"Equipe.h"
+
+1601307945 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 6\fornecido\equipe.h
+	<iostream>
+	<string.h>
+
+1601319038 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 6\fornecido\main.cpp
+	"Equipe.h"
+	"EquipeComCapitao.h"
+	"Competicao.h"
+	<iostream>
+
+1601313371 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 6\fornecido\equipecomcapitao.cpp
+	"EquipeComCapitao.h"
+	"Equipe.h"
+
+1601309029 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 6\fornecido\equipecomcapitao.h
+	<string>
+	<iostream>
+	"Equipe.h"
+
+1601318405 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 6\fornecido\competicao.cpp
+	"Competicao.h"
+	"Equipe.h"
+	<string>
+	<iostream>
+
+1601318779 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 6\fornecido\competicao.h
+	"Equipe.h"
+	"EquipeComCapitao.h"
+	<string>
+	<iostream>
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1459797200 source:d:\felipe 2\documentos usp\pcs3111\aula 9\exemplos\ex01\aluno.cpp
+	"Aluno.h"
+	<string>
+	<iostream>
+	<stdexcept>
+
+1459797193 d:\felipe 2\documentos usp\pcs3111\aula 9\exemplos\ex01\aluno.h
+	<string>
+
+1604088059 source:d:\felipe 2\documentos usp\pcs3111\aula 9\exemplos\ex01\disciplina.cpp
+	"Disciplina.h"
+	<stdexcept>
+	<string>
+
+1457724607 d:\felipe 2\documentos usp\pcs3111\aula 9\exemplos\ex01\disciplina.h
+	"Aluno.h"
+	<string>
+
+1469583638 source:d:\felipe 2\documentos usp\pcs3111\aula 9\exemplos\ex01\main.cpp
+	<iostream>
+	<stdexcept>
+	"Disciplina.h"
+	"Aluno.h"
+

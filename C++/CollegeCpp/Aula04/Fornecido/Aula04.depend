@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1600108506 source:d:\library\documentos usp\pcs3111\aula 4\fornecido\main.cpp
+	"Equipe.h"
+	"Modalidade.h"
+	<iostream>
+
+1600097244 source:d:\library\documentos usp\pcs3111\aula 4\fornecido\equipe.cpp
+	"Equipe.h"
+	<string>
+	<iostream>
+
+1600100207 d:\library\documentos usp\pcs3111\aula 4\fornecido\equipe.h
+	<string>
+	<iostream>
+
+1600108476 d:\library\documentos usp\pcs3111\aula 4\fornecido\modalidade.h
+	<string>
+	"Equipe.h"
+	<iostream>
+
+1600108418 source:d:\library\documentos usp\pcs3111\aula 4\fornecido\modalidade.cpp
+	"Modalidade.h"
+	<string>
+	<iostream>
+
+1600097244 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 4\fornecido\equipe.cpp
+	"Equipe.h"
+	<string>
+	<iostream>
+
+1600100207 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 4\fornecido\equipe.h
+	<string>
+	<iostream>
+
+1600104533 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 4\fornecido\main.cpp
+	"Equipe.h"
+	"Modalidade.h"
+	<iostream>
+
+1600108476 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 4\fornecido\modalidade.h
+	<string>
+	"Equipe.h"
+	<iostream>
+
+1600108663 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 4\fornecido\modalidade.cpp
+	"Modalidade.h"
+	<string>
+	<iostream>
+

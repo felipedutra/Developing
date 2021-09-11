@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1606136806 source:d:\felipe 2\documentos usp\pcs3111\aula 11\fornecido\competicao.cpp
+	"Competicao.h"
+	<stdexcept>
+
+1606136166 d:\felipe 2\documentos usp\pcs3111\aula 11\fornecido\competicao.h
+	"Modalidade.h"
+	<vector>
+	<list>
+
+1591045962 d:\felipe 2\documentos usp\pcs3111\aula 11\fornecido\modalidade.h
+	<iostream>
+	"Equipe.h"
+
+1591052864 d:\felipe 2\documentos usp\pcs3111\aula 11\fornecido\equipe.h
+	<string>
+
+1591052873 source:d:\felipe 2\documentos usp\pcs3111\aula 11\fornecido\equipe.cpp
+	"Equipe.h"
+
+1606137148 source:d:\felipe 2\documentos usp\pcs3111\aula 11\fornecido\main.cpp
+	<iostream>
+	"Equipe.h"
+	"Equipe.h"
+	"Modalidade.h"
+	"Competicao.h"
+
+1606135145 source:d:\felipe 2\documentos usp\pcs3111\aula 11\fornecido\modalidade.cpp
+	"Modalidade.h"
+
+1591052873 source:e:\google drive\documentos usp\pcs3111\aula 11\fornecido\equipe.cpp
+	"Equipe.h"
+
+1591052864 e:\google drive\documentos usp\pcs3111\aula 11\fornecido\equipe.h
+	<string>
+
+1606137171 source:e:\google drive\documentos usp\pcs3111\aula 11\fornecido\main.cpp
+	<iostream>
+	"Equipe.h"
+	"Equipe.h"
+	"Modalidade.h"
+	"Competicao.h"
+
+1591045962 e:\google drive\documentos usp\pcs3111\aula 11\fornecido\modalidade.h
+	<iostream>
+	"Equipe.h"
+
+1606136166 e:\google drive\documentos usp\pcs3111\aula 11\fornecido\competicao.h
+	"Modalidade.h"
+	<vector>
+	<list>
+
+1606135145 source:e:\google drive\documentos usp\pcs3111\aula 11\fornecido\modalidade.cpp
+	"Modalidade.h"
+
+1606137187 source:e:\google drive\documentos usp\pcs3111\aula 11\fornecido\competicao.cpp
+	"Competicao.h"
+	<stdexcept>
+

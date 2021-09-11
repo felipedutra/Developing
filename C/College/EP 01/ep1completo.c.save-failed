@@ -1,0 +1,68 @@
+/***************************************************************/
+/**                                                           **/
+/**   Felipe Dutra Teixeira                        11806851   **/
+/**   Exercício-Programa 01                                   **/
+/**   Professor: Marcel Kenji de Carli Silva                  **/
+/**   Turma: (02)                                  **/
+/**                                                           **/
+/***************************************************************/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,prim,div,verd,a1,a2,a3,a4,cond;
+    printf("Digite um numero (0 < n < 10^8):");
+    scanf("%d",&n);
+    while(n!=0){
+
+    a1=2;
+    a2=3;
+    a3=5;
+    a4=7;
+   cond=1;
+    while(cond!=0){
+             prim=11;
+             if(n==a1*a1+a2*a2+a3*a3+a4*a4){
+       printf("%d = %d^2+%d^2+%d^2+%d^2 \n", n,a1,a2,a3,a4);
+        cond=0;
+            }
+
+             while(prim<=n){
+    verd=0;
+    while(!verd){
+        for(div=2;div<prim;div++){
+            if(prim%div==0){
+
+                prim++;
+                div=2;
+             }else{
+                 verd=1;
+
+             }
+
+        }
+        a1=a2;
+        a2=a3;
+        a3=a4;
+        a4=prim;
+ //      printf("%d \n",prim);
+        if(n==a1*a1+a2*a2+a3*a3+a4*a4){
+       printf("%d = %d^2+%d^2+%d^2+%d^2 \n", n,a1,a2,a3,a4);
+        cond=0;cond=0;
+            }
+
+
+    }
+    prim++;
+    }
+    if(cond!=0&&n<a1*a1+a2*a2+a3*a3+a4*a4){
+        cond=0;
+        printf("Nao existem 4 primos consecutivos cujos quadrados somam %d\n",n);
+    }
+    }
+    scanf("%d",&n);
+
+    }
+    return 0;
+}

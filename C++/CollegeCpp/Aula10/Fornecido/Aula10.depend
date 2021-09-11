@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1586178712 source:d:\felipe 2\documentos usp\pcs3111\aula 10\fornecido\equipe.cpp
+	"Equipe.h"
+
+1591038441 d:\felipe 2\documentos usp\pcs3111\aula 10\fornecido\equipe.h
+	<iostream>
+	<string.h>
+
+1605551023 source:d:\felipe 2\documentos usp\pcs3111\aula 10\fornecido\main.cpp
+	<iostream>
+	"Equipe.h"
+	"PersistenciaEquipe.h"
+
+1605551620 d:\felipe 2\documentos usp\pcs3111\aula 10\fornecido\persistenciaequipe.h
+	<string>
+	"Equipe.h"
+
+1605562012 source:d:\felipe 2\documentos usp\pcs3111\aula 10\fornecido\persistenciaequipe.cpp
+	"PersistenciaEquipe.h"
+	<fstream>
+	<stdexcept>
+
+1586178712 source:e:\google drive\documentos usp\pcs3111\aula 10\fornecido\equipe.cpp
+	"Equipe.h"
+
+1591038441 e:\google drive\documentos usp\pcs3111\aula 10\fornecido\equipe.h
+	<iostream>
+	<string.h>
+
+1605562060 source:e:\google drive\documentos usp\pcs3111\aula 10\fornecido\main.cpp
+	<iostream>
+	"Equipe.h"
+	"PersistenciaEquipe.h"
+
+1605551620 e:\google drive\documentos usp\pcs3111\aula 10\fornecido\persistenciaequipe.h
+	<string>
+	"Equipe.h"
+
+1605562012 source:e:\google drive\documentos usp\pcs3111\aula 10\fornecido\persistenciaequipe.cpp
+	"PersistenciaEquipe.h"
+	<fstream>
+	<stdexcept>
+

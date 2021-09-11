@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1603074677 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\competicaoimprimivel.cpp
+	"CompeticaoImprimivel.h"
+
+1571685742 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\competicaoimprimivel.h
+	"Competicao.h"
+
+1603052178 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\competicao.h
+	"Modalidade.h"
+
+1591020732 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\modalidade.h
+	<iostream>
+	"Equipe.h"
+
+1571602602 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\equipe.h
+	<string>
+	<iostream>
+
+1591020601 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\equipe.cpp
+	"Equipe.h"
+
+1591022024 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\historico.cpp
+	"Historico.h"
+
+1591024366 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\historico.h
+	"Competicao.h"
+
+1603074715 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\main.cpp
+	"Competicao.h"
+	"Modalidade.h"
+	"Equipe.h"
+	"CompeticaoImprimivel.h"
+	<iostream>
+
+1591022089 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\modalidade.cpp
+	"Modalidade.h"
+
+1603054575 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecido\competicao.cpp
+	"Competicao.h"
+
+1603129121 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\competicao.cpp
+	"Competicao.h"
+
+1603129121 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\competicao.h
+	"Modalidade.h"
+
+1591020732 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\modalidade.h
+	<iostream>
+	"Equipe.h"
+
+1571602602 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\equipe.h
+	<string>
+	<iostream>
+
+1603129121 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\competicaoimprimivel.cpp
+	"CompeticaoImprimivel.h"
+
+1603075693 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\competicaoimprimivel.h
+	"Competicao.h"
+
+1591020601 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\equipe.cpp
+	"Equipe.h"
+
+1591022024 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\historico.cpp
+	"Historico.h"
+
+1591024366 d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\historico.h
+	"Competicao.h"
+
+1603128811 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\main.cpp
+	"Competicao.h"
+	"Modalidade.h"
+	"Equipe.h"
+	"CompeticaoImprimivel.h"
+	<iostream>
+
+1591022089 source:d:\felipe 2\documentos usp\pcs3111\aula 7\fornecidoex2\modalidade.cpp
+	"Modalidade.h"
+

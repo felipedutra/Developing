@@ -1,0 +1,21 @@
+body {
+  font-family: arial, sans-serif;
+  background-color: rgb(25,25,25);
+}
+h1 {
+  color: blue;
+}
+p {
+
+}
+a {
+  color: green;
+}
+.morespace {
+  margin-left: 20em;
+  margin-right: 20em;
+}
+.container {
+  font-size: 2em;
+  color: blue;
+}

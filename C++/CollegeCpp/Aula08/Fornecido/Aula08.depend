@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1603731009 source:d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\equipe.cpp
+	"Equipe.h"
+
+1603731009 d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\equipe.h
+	<string>
+	"Participante.h"
+	"Pessoa.h"
+	<iostream>
+
+1603734885 source:d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\main.cpp
+	<iostream>
+	"Participante.h"
+	"Equipe.h"
+	"Pessoa.h"
+	"CentroAcademico.h"
+	"EquipeDoCA.h"
+
+1603727311 source:d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\participante.cpp
+	"Participante.h"
+
+1603727425 d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\participante.h
+	<string>
+	<iostream>
+
+1603735091 source:d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\pessoa.cpp
+	"Pessoa.h"
+
+1603735091 d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\pessoa.h
+	"Participante.h"
+	<string>
+	<iostream>
+
+1603732584 source:d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\centroacademico.cpp
+	"CentroAcademico.h"
+
+1603732584 d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\centroacademico.h
+	"Pessoa.h"
+	<iostream>
+
+1603732376 source:d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\equipedoca.cpp
+	"EquipeDoCA.h"
+
+1603732516 d:\felipe 2\documentos usp\pcs3111\aula 8\fornecido\equipedoca.h
+	"Equipe.h"
+	"CentroAcademico.h"
+

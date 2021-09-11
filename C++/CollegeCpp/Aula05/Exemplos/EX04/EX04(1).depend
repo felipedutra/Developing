@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1600713612 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\exemplos\ex04\main.cpp
+	<iostream>
+	"Sensor.h"
+	"Residencia.h"
+
+1600713612 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\exemplos\ex04\sensor.h
+	"Residencia.h"
+
+1600713612 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\exemplos\ex04\residencia.h
+
+1600713612 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\exemplos\ex04\sensor.cpp
+	<iostream>
+	"Sensor.h"
+
+1601771978 source:d:\felipe dutra 2\documentos usp\pcs3111\aula 5\exemplos\ex04\main.cpp
+	<iostream>
+	"Sensor.h"
+	"Residencia.h"
+
+1600713612 d:\felipe dutra 2\documentos usp\pcs3111\aula 5\exemplos\ex04\sensor.h
+	"Residencia.h"
+
+1600713612 d:\felipe dutra 2\documentos usp\pcs3111\aula 5\exemplos\ex04\residencia.h
+
+1601604753 source:d:\felipe dutra 2\documentos usp\pcs3111\aula 5\exemplos\ex04\sensor.cpp
+	"Sensor.h"
+	<iostream>
+

@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1601311675 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\fornecido\equipe.cpp
+	"Equipe.h"
+
+1601311676 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\fornecido\equipe.h
+	<iostream>
+	<string.h>
+
+1601311676 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\fornecido\main.cpp
+
+1601311676 source:d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\fornecido\tabela.cpp
+	"Tabela.h"
+
+1601311676 d:\felipe dutra 2\library\documentos usp\pcs3111\aula 5\fornecido\tabela.h
+	"Equipe.h"
+
+1601311675 source:d:\felipe dutra 2\documentos usp\pcs3111\aula 5\fornecido\equipe.cpp
+	"Equipe.h"
+
+1601311676 d:\felipe dutra 2\documentos usp\pcs3111\aula 5\fornecido\equipe.h
+	<iostream>
+	<string.h>
+
+1601311676 source:d:\felipe dutra 2\documentos usp\pcs3111\aula 5\fornecido\main.cpp
+
+1601608606 source:d:\felipe dutra 2\documentos usp\pcs3111\aula 5\fornecido\tabela.cpp
+	"Tabela.h"
+
+1601311676 d:\felipe dutra 2\documentos usp\pcs3111\aula 5\fornecido\tabela.h
+	"Equipe.h"
+
