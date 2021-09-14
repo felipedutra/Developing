@@ -142,7 +142,7 @@ end architecture;
           inicia: in bit;
           -- Saida de dados
           nSomas: out bit_vector (8 downto 0);
-          mmc16: out bit_vector(15 downto 0)
+          mmc: out bit_vector(15 downto 0)
 
 
       );
@@ -194,7 +194,7 @@ end architecture;
           port map (clock, '0', inicia, B, b0);
 
           regCMD: register16
-          port map (clock, '0', x1, a_out, mmc16);
+          port map (clock, '0', x1, a_out, mmc);
 
           regCount: register9
           port map (clock, '0', x1, sum, nSomas_out);
@@ -255,7 +255,7 @@ end architecture;
               inicia: in bit;
               -- Saida de dados
               nSomas: out bit_vector (8 downto 0);
-              mmc16: out bit_vector(15 downto 0)
+              mmc: out bit_vector(15 downto 0)
 
           );
       end component;

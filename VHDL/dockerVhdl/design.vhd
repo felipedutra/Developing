@@ -178,7 +178,7 @@ end architecture;
         A,B:            in bit_vector(7 downto 0);  -- Entrada de dados
         fim:            out bit; -- Saida de controle
         nSomas:         out bit_vector(8 downto 0);
-        tMMC:            out bit_vector(15 downto 0)
+        MMC:            out bit_vector(15 downto 0)
 
         );
   end mmc;
@@ -214,7 +214,7 @@ end architecture;
               -- Entrada de controle
               inicia: in bit;
               -- Saida de dados
-              tmmc: out bit_vector(15 downto 0)
+              mmc: out bit_vector(15 downto 0)
 
           );
       end component;
@@ -229,6 +229,6 @@ end architecture;
           port map(clock, reset, inicia, diferente, maior, h1, h2, s1, s2, x1, fim);
 
           xFD: FD
-          port map(clock_n, h1, h2, s1, s2, x1, diferente, maior, A, B, inicia, tmmc);
+          port map(clock_n, h1, h2, s1, s2, x1, diferente, maior, A, B, inicia, mmc);
 
   end architecture;
