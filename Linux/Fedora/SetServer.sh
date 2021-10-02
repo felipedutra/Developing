@@ -23,7 +23,7 @@ sudo firewall-cmd --reload
 #installing php and MySQL
 sudo dnf -y install php  php-cli php-fpm php-mysqlnd php-zip php-devel php-gd php-mcrypt php-mbstring php-curl php-xml php-pear php-bcmath php-json
 sudo systemctl restart httpd
-sudo hostnamectl set-hostname dutrainc.com.br
+sudo hostnamectl set-hostname heisenberg.com.br
 
 sudo dnf remove docker \
                   docker-client \
@@ -59,15 +59,6 @@ sudo restorecon -R /mnt/HD2/
 sudo restorecon -R /mnt/HD3/
 sudo restorecon -R /mnt/HD4/
 sudo nano /etc/samba/smb.conf
-[felipedutra]
-     	  comment = My Share
-        path =  ~/
-        writeable = yes
-        browseable = yes
-        public = yes
-        create mask = 0644
-        directory mask = 0755
-        write list = user
 [HD1]
        	comment = My Share
         path =  /mnt/HD1
