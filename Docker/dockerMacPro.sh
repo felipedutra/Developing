@@ -1,5 +1,5 @@
-sudo docker pull fedora
-sudo docker run -d -t --name heinsenberg fedora /bin/bash
+docker pull fedora
+docker run -d -t --name heinsenberg fedora /bin/bash
 docker ps
 docker exec -it heinsenberg bash
 docker stop heinsenberg

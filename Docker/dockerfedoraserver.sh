@@ -1,6 +1,6 @@
 #Preconfigs
 sudo docker pull fedora
-sudo docker run -d -t -p 80:80 --name dutrainc fedora /bin/bash
+sudo docker run -d --rm -t -p 80:80 --name dutrainc fedora /bin/bash
 docker ps
 docker exec -it dutrainc bash
 docker stop dutrainc
