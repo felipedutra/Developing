@@ -7,7 +7,7 @@ su - felipedutra
 mkdir ~/.ssh && chmod 700 ~/.ssh
 
 sudo dnf update -y && sudo dnf upgrade -y
-sudo dnf -y install vim bash-completion curl wget telnet clang gcc
+sudo dnf -y install vim bash-completion curl wget telnet clang gcc plexmediaserver onedrive
 sudo sestatus
 sudo setenforce 0
 sudo sed -i 's/^SELINUX=.*/SELINUX=permissive/g' /etc/selinux/config
@@ -100,8 +100,30 @@ sudo nano /etc/samba/smb.conf
 
 
 sudo systemctl restart smb
-sudo firewall-cmd --add-service={http,https,samba} --permanent
+sudo firewall-cmd --add-service={http,https,samba,plex} --permanent
 sudo firewall-cmd --reload
+
+sudo dnf upgrade
+sudo tee /etc/yum.repos.d/plex.repo<<EOF
+[Plexrepo]
+name=plexrepo
+baseurl=https://downloads.plex.tv/repo/rpm/\$basearch/
+enabled=1
+gpgkey=https://downloads.plex.tv/plex-keys/PlexSign.key
+gpgcheck=1
+EOF
+sudo dnf install plexmediaserver -y
+sudo systemctl start plexmediaserver
+sudo systemctl enable plexmediaserver
+systemctl status plexmediaserver
+
+
+
+
+
+
+
+
 
 sudo reboot
 
