@@ -52,12 +52,12 @@ sudo semanage fcontext --add --type "samba_share_t" ~/
 sudo semanage fcontext --add --type "samba_share_t" /mnt/HD1/
 sudo semanage fcontext --add --type "samba_share_t" /mnt/HD2/
 sudo semanage fcontext --add --type "samba_share_t" /mnt/HD3/
-sudo semanage fcontext --add --type "samba_share_t" /mnt/HD4/
+#sudo semanage fcontext --add --type "samba_share_t" /mnt/HD4/
 sudo restorecon -R ~/
 sudo restorecon -R /mnt/HD1/
 sudo restorecon -R /mnt/HD2/
 sudo restorecon -R /mnt/HD3/
-sudo restorecon -R /mnt/HD4/
+#sudo restorecon -R /mnt/HD4/
 sudo nano /etc/samba/smb.conf
 [HD1]
        	comment = My Share
@@ -135,6 +135,8 @@ find . -type f -name "*.mkv" -maxdepth 1 \
 find . -type f -name "*.mkv" -maxdepth 3 \
 -exec bash -c 'mv ~/' {} \;
 
+find . -type f -name "*.mpg" -maxdepth 1 \
+-exec bash -c 'ffmpeg -i "$0" -vcodec copy -acodec copy "${0/.mpg/.mp4}"' {} \;
 
 scp ~/.ssh/id_rsa.pub {username}@{server ip}:~/.ssh/authorized_keys
 

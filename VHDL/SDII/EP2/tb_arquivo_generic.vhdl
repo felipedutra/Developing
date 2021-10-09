@@ -16,10 +16,10 @@ architecture tb of testbench is
         data: out bit_vector(wordSize-1 downto 0)
     );
 end component;
-    
+
  signal address: bit_vector(4 downto 0);
  signal dado: bit_vector(7 downto 0);
-    
+
  begin
  	DUT: rom_arquivo_generica port map (address,dado);
     stimulo:process is
@@ -36,18 +36,18 @@ end component;
      ("00011","00001100","T04"),
      ("00100","00110000","T05")
 	);
-     
+
  begin
  	assert false report "Test Start."severity note;
  for k in tests'range loop
    address <= tests(k).endereco_entry;
    wait for 20 ns;
-   
+
  if(tests(k).str = "T01") then
  	wait for 20 ns;
-    assert(tests(k).dado_saida = dado) report "Fail T01" severity error;
+    assert(tests(k).dado_saida /= dado) report "Fail T01" severity error;
  end if;
- 
+
   if(tests(k).str = "T02") then
  	wait for 20 ns;
     assert(tests(k).dado_saida = dado) report "Fail T02" severity error;
@@ -56,7 +56,7 @@ end component;
  	wait for 20 ns;
     assert(tests(k).dado_saida = dado) report "Fail T01" severity error;
  end if;
- 
+
    if(tests(k).str = "T04") then
  	wait for 20 ns;
     assert(tests(k).dado_saida = dado) report "Fail T04" severity error;
@@ -71,4 +71,4 @@ end loop;
 assert false report "Test Done" severity note;
 wait; end process;
 
-end tb;	
+end tb;

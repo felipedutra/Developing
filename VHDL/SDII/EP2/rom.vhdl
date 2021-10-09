@@ -1,5 +1,6 @@
 library ieee;
 use ieee.numeric_bit.all;
+use std.textio.all;
 entity rom_simples is
   port (
     addr : in bit_vector(4 downto 0); -- 5bits de endereco
@@ -43,5 +44,7 @@ architecture rom_simples_arch of rom_simples is
     "11110" =>	"11011110",
     "11111" =>	"00110001");
     begin
+      process (addr)
     data <= mem(bit_vector(unsigned(addr)));
+    end process;
   end rom_simples_arch;
