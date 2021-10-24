@@ -44,7 +44,7 @@ sudo systemctl start docker
 sudo systemctl enable docker
 sudo docker run hello-world
 
-sudo chown -R felipedutra:felipedutra /mnt/*
+sudo chown -R felipedutra:felipedutra /mnt/* && sudo chmod -R 777 /mnt/*
 sudo dnf install samba
 sudo systemctl enable smb --now
 sudo smbpasswd -a felipedutra
