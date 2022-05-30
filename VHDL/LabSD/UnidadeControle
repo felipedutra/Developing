@@ -12,7 +12,7 @@ architecture arch of UnidadeDeControle is
 type state_type is (vazio, gmais, gmenos, imais, imenos, cheio);
 signal PS,NS : state_type;
 signal e: std_logic_vector (1 downto 0);
-e <=
+e <= Entrada&EntradaIdosos;
 begin
 sync_proc: process(CLK,NS,CLR)
 begin
@@ -28,5 +28,8 @@ prox_estado : process (PS, fim)
 begin
   case PS is
     when vazio =>
-      if fim = '1' then NS <= cheio; elsif
+      if fim = '1' then NS <= cheio;
+      elsif e = "11" then NS <=imais;
+      elsif e = "01" then NS <=vazio;      
+
 end arch;
