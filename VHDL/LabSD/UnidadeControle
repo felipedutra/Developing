@@ -30,6 +30,37 @@ begin
     when vazio =>
       if fim = '1' then NS <= cheio;
       elsif e = "11" then NS <=imais;
-      elsif e = "01" then NS <=vazio;      
+      elsif e = "01" then NS <=vazio;
+      elsif e = "00" then NS <=vazio;
+      else  then NS <=gmais;
+    when gmais =>
+      if fim = '1' then NS <= cheio;
+      elsif e = "11" then NS <=imais;
+      elsif e = "01" then NS <=gmenos;
+      elsif e = "00" then NS <=imenos;
+      else  then NS <=gmais;
+      when gmenos =>
+        if fim = '1' then NS <= cheio;
+        elsif e = "11" then NS <=imais;
+        elsif e = "01" then NS <=gmenos;
+        elsif e = "00" then NS <=imenos;
+        else  then NS <=gmais;
+      when imais =>
+        if fim = '1' then NS <= cheio;
+        elsif e = "11" then NS <=imais;
+        elsif e = "01" then NS <=gmenos;
+        elsif e = "00" then NS <=imenos;
+        else  then NS <=gmais;
+          when imenos =>
+        if fim = '1' then NS <= cheio;
+        elsif e = "11" then NS <=imais;
+        elsif e = "01" then NS <=gmenos;
+        elsif e = "00" then NS <=imenos;
+        else  then NS <=gmais;
+
+
+
+
+
 
 end arch;
