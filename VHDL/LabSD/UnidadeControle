@@ -1,0 +1,32 @@
+-- library declaration
+library IEEE;
+use IEEE.std_logic_1164.all;
+-- entity
+entity UnidadeDeControle is
+port ( Entrada, EntradaIdosos, fim  : in std_logic;
+CLK,CLR : in std_logic;
+Z1 : out std_logic);
+end UnidadeDeControle;
+-- architecture
+architecture arch of UnidadeDeControle is
+type state_type is (vazio, gmais, gmenos, imais, imenos, cheio);
+signal PS,NS : state_type;
+signal e: std_logic_vector (1 downto 0);
+e <=
+begin
+sync_proc: process(CLK,NS,CLR)
+begin
+-- take care of the asynchronous input
+if (CLR = '1') then
+PS <= vazio;
+elsif (rising_edge(CLK)) then
+PS <= NS;
+end if;
+end process sync_proc;
+
+prox_estado : process (PS, fim)
+begin
+  case PS is
+    when vazio =>
+      if fim = '1' then NS <= cheio; elsif
+end arch;
