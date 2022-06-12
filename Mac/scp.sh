@@ -1,4 +1,4 @@
-scutil --set HostName MacPro
+sudo scutil --set HostName MacPro
 
 ssh-keygen -t ed25519 -C "felipedutrateixeira@gmail.com"
 
