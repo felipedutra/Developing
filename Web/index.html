@@ -1,0 +1,772 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<script>
+    if (window.localStorage) {
+        var dataLayer = window.localStorage.getItem('dataLayer');
+        if (typeof dataLayer != 'undefined' && dataLayer != '') {
+            dataLayer = [{ 'userID': dataLayer }];
+        }
+    }
+
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WRR8SCK');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25327010-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-25327010-2');
+</script>
+<meta name="author" content="ClubeFII" /><meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRJS-ddf746e805855a4bc43","applicationID":"578275065","transactionName":"bwABZhZTD0RVAEFbX1ZKImE0HRNWUAJHbUBKCgVbCFc+QV0QQFNcUR8CUQVdT1ZHE00=","queueTime":0,"applicationTime":23,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-ddf746e805855a4bc43",applicationID:"578275065"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Página de visualização de profiles.">
+<meta name="keywords" content="visualização personalizada fiis, tabela personalizada, acompanhamento fiis, clubefii, Fundo de Investimento Imobiliário,fii, fundos imobiliarios, fundo imobiliario" />
+<meta name="author" content="ClubeFII">
+<link rel="SHORTCUT ICON" href="//cdn.clubefii.com.br/img/old/ico_site_16.png" /><link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/rss" /><link href="https://cdn.clubefii.com.br" rel="preconnect" crossorigin="" /><link rel="stylesheet" href="//cdn.clubefii.com.br/css/bootstrap.css?v=63" /><link rel="preload" href="//cdn.clubefii.com.br/js/scripts.js?v=64" as="script" /><link rel="preload" href="//cdn.clubefii.com.br/css/klavika.css?v=2" as="style" /><link rel="preload" href="//cdn.clubefii.com.br/icons/icons17.css" as="style" />
+<script type="text/javascript" src="/jquery/js/jquery-1.11.1.min.js?v=20190930"></script>
+<script type="text/javascript" src="/jquery/js/js_fii_v2.js?v=46"></script>
+<script type="text/javascript" src="/jquery/js/js_master_page_v2.js?v=86"></script>
+<script type="text/javascript" src="/jquery/js/js_utilitarios.js?v=42"></script>
+<link rel="stylesheet" href="/jquery/css/css_desktop.css?v=26022021" /><link rel="stylesheet" href="/jquery/css/css_utilitarios.css?v=12022021" /><link rel="stylesheet" href="/jquery/css/clubefii_sty.css?v=03112021" />
+<script>
+      
+       document.oncopy = new Function("");
+       
+
+      // alert($.cookie("fiis_seguidos"));
+
+       try {
+           if ($.cookie("fiis_seguidos").length <= 4) { }
+       } catch (err) {
+           $.cookie("fiis_seguidos", '');
+       }
+
+       if ($.cookie("fiis_seguidos").length <= 4) {
+           $.cookie("fiis_seguidos", "");
+       }
+
+       
+
+       $(document).ready(function () {
+         
+
+           $.cookie("nom_usu", '');
+
+            
+           window.clearTimeout(timeoutID);
+            
+
+           if ($.QueryString && $.QueryString["ativacao"] != null) {
+               $.post("/ativar_conta", {
+                   cod_ati: $.QueryString["ativacao"],
+               }, function (data) {
+                   if (data == 'True') {
+                       $('#modalLogin .result').addClass('success').html('<i class="icon-regular_info" style="font-size: 32px;float: left;margin-right: 16px;"></i> Obrigado por ativar a sua conta.')
+                       showModal('#modalLogin');
+                   } else {
+                       $('#modalLogin .result').addClass('error').html('<i class="icon-regular_info" style="font-size: 32px;float: left;margin-right: 16px;"></i> Sua conta não pôde, ou já foi ativada no <strong>Clube FII</strong>')
+                       showModal('#modalLogin');
+                   }
+               })
+
+               history.pushState("/Default.aspx", "", "/Default.aspx");
+           }
+
+           if ($.QueryString && $.QueryString["ativacao_mudanca_email"] != null) {
+               $.ajax({
+                   data: {
+                       codigo_ativacao: $.QueryString["ativacao_mudanca_email"]
+                   },
+                   type: "post",
+                   url: "/configuracoes_conta_salvar?alterar_email=true",
+                   success: function (data) {
+                       if (data == 'True') {
+                           modal({ icon: "thumbs_up", title: "Alteração", text: "Seu e-mail foi alterado com sucesso.", nav: "OK" });
+                       } else {
+                           modal({ icon: "error", title: "Alteração", text: "Seu e-mail não pôde, ou já foi alterado, por favor verifique as configurações de sua conta.", nav: "OK" });
+                       }
+                   }
+               });
+
+               history.pushState("/Default.aspx", "", "/Default.aspx");
+           }
+       });
+
+       
+
+       var HCDefaults = null;
+
+       function checkCreateHCDefaults() {
+           if (HCDefaults == null) {
+               HCDefaults = $.extend(true, {}, Highcharts.getOptions(), {});
+           }
+       }
+
+       function ResetChart() {
+           if (HCDefaults == null)
+               return;
+
+           // Fortunately, Highcharts returns the reference to defaultOptions itself
+           // We can manipulate this and delete all the properties
+           var defaultOptions = Highcharts.getOptions();
+           for (var prop in defaultOptions) {
+               if (typeof defaultOptions[prop] !== 'function') delete defaultOptions[prop];
+           }
+
+           // Fall back to the defaults that we captured initially, this resets the theme
+
+           Highcharts.setOptions(HCDefaults);
+       }
+
+       window.charts = new Array();
+
+       function clearHighchartsGraphs(chartToAvoid) {
+           
+           checkCreateHCDefaults();
+
+           for (var i = 0; i < window.charts.length; i++) {
+               try {
+                   var chart = window.charts[i]
+                   if (chartToAvoid == undefined || (chartToAvoid != undefined && chartToAvoid != chart)) {
+                       chart.destroy();
+                   }
+
+               } catch (e) {
+                   // alert("e: " + e);
+               }
+           }
+
+           window.charts = new Array();
+
+           ResetChart();
+       }
+
+       function pushChart(chart) {
+           window.charts.push(chart);
+       }
+    </script>
+<title>
+	Agronegocio
+</title></head>
+<body class="">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRR8SCK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="banner_masterpage"> <div id="bannerContainner">
+<a id="bannerHTML" href="https://www.clubefii.com.br/relatorios" target="_blank">
+<nav style="background-image: url('https://www.clubefii.com.br/banners/banner_relatorio.jpg');background-size: contain;background-position: center;min-width: 280px;text-align: center;"></nav>
+<div style="display: flex;justify-content: space-between;flex-direction: column;padding-bottom: 16px;min-height: 124px;">
+<strong style="margin-bottom: 12px;">QUER RELATÓRIOS DE FIIS DE CASAS INDEPENDENTES? </strong>
+<div style="padding-right: 32px;">
+Só no Clube FII você encontra relatórios de Fundos Imobiliários de diversas casas de análise independentes para ajudar você escolher os fundos que mais se encaixam em seu perfil!<br />
+<b> Acesso gratuito para assinantes FII DATA PLUS e FII DATA PROFESSIONAL da maioria dos relatórios! </b>
+</div>
+</div>
+<br style="clear: both;">
+</a>
+<a id="bannerMobile" href="https://www.clubefii.com.br/relatorios" target="_blank">
+<i class="icon-regular_arrow_right"></i>
+Relatórios de FIIs das melhores casas de análise
+</a>
+</div>
+<style>
+    #bannerHTML{
+        height: auto;
+        min-height: 180px;
+    }
+    #bannerHTML i{
+        text-decoration: underline;
+        text-decoration-color: #9B133B;
+    }
+    @media only screen and (max-width: 1400px) {
+        #bannerHTML nav{
+            display: none;
+        }
+    } 
+</style> </div>
+<header id="header">
+<ul id="tools">
+<a class="btn-secondary modal" href="#modalLogin" style="width: 66px;">Login</a>
+<a class="btn-primary modal" href="#modalCadastro" data-parent="cadastro">Cadastrar-se<span class="icon-regular_user_add"></span></a>
+<li href="#modalCadastro" class="only-mobile icon-regular_user_add modal"></li>
+<li href="#modalLogin" class="only-mobile icon-regular_user_login modal"></li>
+<li class="icon-regular_cart modal-max-noScroll-768" id="cart"><span id="num_ite_car"></span>
+<div>
+<h3>meu carrinho<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" /></h3>
+<ul id="carrinho_list"></ul>
+<a class="btn-primary" href="/finalizar_pedido">Finalizar Pedido<span class="icon-regular_circle_arrow_right"></span><data class="money" value="100.00">106,40</data></a>
+</div>
+</li>
+<script>
+            window.addEventListener('load', function () {
+                carrinho.load();
+            }, false);
+        </script>
+<ul id="mobile-buttons">
+<li class="icon-regular_burger"> Menu</li>
+<li class="icon-regular_search"> Pesquisa</li>
+</ul>
+</ul>
+<a aria-label="Página inicial" href="/" class="logo"></a>
+<h1>o maior site de fundos imobiliários do brasil</h1>
+<form id="search" class="modal-max-768" onsubmit="search(); return false;">
+<label for="q">Buscar</label>
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<input type="text" name="q" required placeholder="Busca de FIIs, imóveis, relatórios, artigos e mais ..." autocomplete="off" />
+<button type="submit" class="icon-regular_search">BUSCAR</button>
+<ul class="scroll"></ul>
+<script>
+        function seguir_fundo_pesquisa(obj, cod_neg) {
+            if (obj.classList.contains('active')) {
+                obj.classList.remove('active');
+                $('button.' + cod_neg).removeClass('active')
+            } else {
+                obj.classList.add('active');
+                $('button.' + cod_neg).addClass('active')
+            }
+
+            
+                showModal("#modalCadastro");
+            
+
+            return false;
+        }
+    </script>
+</form>
+<div id="modalCadastro" class="modal hasNav" style="width: 640px;">
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h3>cadastro</h3>
+<p>Você precisa ter um cadastro e estar logado no Clube FII para poder seguir um Fundo Imobiliário.</p>
+<p class="cadastro">CADASTRE-SE GRATUITAMENTE E FAÇA PARTE DO MAIOR SITE DE FUNDOS IMOBILIÁRIOS DO BRASIL!</p>
+<form onsubmit="cadastrar_usuario(this); return false;">
+<div style="width: calc(33% - 16px);">
+<label for="txt_cad_nom">Nome Completo</label>
+<input type="text" id="txt_cad_nom" autocomplete="off" name="txt_cad_nom" maxlength="70" required />
+</div>
+<div style="width: calc(33% - 16px);">
+<label for="txt_cad_ape">Apelido nos Fóruns</label>
+<input type="text" id="txt_cad_ape" autocomplete="off" name="txt_cad_ape" maxlength="15" required />
+</div>
+<div style="width: calc(33% - 16px);">
+<label for="txt_cad_eml">Email</label>
+<input type="text" id="txt_cad_eml" autocomplete="off" name="txt_cad_eml" maxlength="320" required />
+</div>
+<div style="width: calc(50% - 16px);">
+<label for="txt_cad_sen">Senha</label>
+<input type="password" id="txt_cad_sen" autocomplete="off" name="txt_cad_sen" required />
+</div>
+<div style="width: calc(50% - 16px);">
+<label for="txt_cad_sen_con">Confirme a senha</label>
+<input type="password" id="txt_cad_sen_con" autocomplete="off" name="txt_cad_sen_con" required />
+</div>
+<nav class="x2">
+<a class="btn-secondary modal min-768" href="#modalLogin" style="width: calc(50% - 27px);">já possuo cadastro, fazer login</a>
+<button type="submit" class="btn-primary">Cadastrar-se<span class="icon-regular_pen"></span></button>
+</nav>
+</form>
+<div style="padding: 0 32px;">
+<span class="font-body-supersmall">Efetuando o seu cadastro, você está concordando com os nossos <a href="#modalTermos" class="modal" title="Termos de Uso">termos de uso</a>.Será enviado um e-mail solicitando a confirmação do cadastro.</span>
+</div>
+</div>
+<div id="modalCadastroRealizado" class="modal hasNav" style="width: 640px;">
+<img data-src="//cdn.clubefii.com.br/img/icons/super/id_link.png" alt="Icone Cadastro" style="width: 130px;position: relative;top: 32px;" />
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h3>cadastro realizado</h3>
+<p>Obrigado por fazer parte do Clube FII! Foi enviado um link para o seu e-mail para você finalizar o seu cadastro.</p>
+<form>
+<nav class="x1">
+<button class="btn-secondary" onclick="hideModal(); return false;">Fechar</button>
+</nav>
+</form>
+</div>
+<div id="modalLogin" class="modal hasNav " style="width: 640px;">
+<img data-src="//cdn.clubefii.com.br/img/icons/super/professionals.png" alt="Icone Login" style="width: 130px;position: relative;top: 32px;" />
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h3 style="text-align: center;margin-top: 48px;margin-bottom: 11px;">digite seus dados</h3>
+<form id="login" onsubmit="hash_gen(); login(txt_email.value, txt_senha.value,'',document.getElementById('fpid').value); return false;">
+<input type="hidden" id="fpid" name="fpid">
+<div style="width: calc(50% - 16px);margin-right: 6px;">
+<label for="txt_email">Email</label>
+<input type="text" id="txt_email" required />
+</div>
+<div style="width: calc(50% - 16px);">
+<label for="txt_senha">Senha</label>
+<input type="password" id="txt_senha" required />
+</div>
+<div style="width: calc(100% - 16px);">
+<a class="font-subtitle-small" onclick="toggle('#reset_password'); resizeModal('#modalLogin'); return false;" style="color:#718698;background: transparent;width: 100%;text-align: center;display: block;cursor: pointer;">esqueceu sua senha? <i class="icon-regular_help" style="font-size: 23px;position: relative;top: 6px;"></i></a>
+<div style="display:none;" id="reset_password">
+<label for="txt_eml_esq">digite seu email para alterar sua senha</label>
+<input type="text" id="txt_eml_esq" style="width: calc(100% - 80px);" /><a class="btn-primary" onclick="if (!validateEmail(txt_eml_esq.value.trim())) { alert('O e-mail digitado não é válido') } else { reenviar_senha(txt_eml_esq.value) }; return false;">enviar</a>
+</div>
+</div>
+<nav class="x2">
+<a class="btn-secondary" onclick="hideModal(); return false;" style="width: calc(50% - 32px);">cancelar</a>
+<button type="submit" class="btn-primary">login<span class="icon-regular_user"></span></button>
+</nav>
+</form>
+<p class="result"></p>
+<script>
+        function hash_gen() {
+
+
+            try {
+                  const fpPromise = FingerprintJS.load({ token: 'UUoN0u3Oxb4IfeGxCnE8' })
+
+        fpPromise
+            .then(fp => fp.get())
+            .then(result => {
+                document.getElementById('fpid').value = result.visitorId;
+            }) 
+            }
+            catch (e) {
+               
+                 
+            }
+
+      
+    }
+    </script>
+<script async src="//cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js" onload="hash_gen()"></script>
+</div>
+</header>
+<style>
+    @media(min-width: 1024px){
+        .submenu-fiis {
+            height:calc(100vh - 155px); 
+            overflow-x:hidden;
+            overflow-y:auto;
+        }
+    }
+</style>
+<div class="header-mobile">
+<svg class="close" viewBox="0 0 64 64">
+<g fill="none">
+<circle stroke="#000000" style="stroke-width:2px;vector-effect: non-scaling-stroke;" cx="32" cy="32" r="28"></circle>
+<g transform="translate(19.000000, 19.000000)" stroke="#9B133B" stroke-width="2">
+<path d="M26,26 L0,0" style="stroke-width:2px;vector-effect: non-scaling-stroke;"></path>
+<path d="M0,26 L26,0" style="stroke-width:2px;vector-effect: non-scaling-stroke;"></path>
+</g>
+</g>
+</svg>
+<a href="/" class="logo-mobile">
+<img src="//cdn.clubefii.com.br/img/logo_color.png" alt="Logo Clube Fii" class="logo">
+</a>
+</div>
+<ul class="main-menu scroll">
+<li>
+<a href="#" class="has-sub icon-regular_building">Fundos Imobiliários</a>
+<ul>
+<li><a href="/fundos-imobiliarios-resumo" class="icon-regular_credit_card">Painel de Atividades</a></li>
+<li class="has-sub"><a href="javascript:void(0);" class="icon-regular_list">Listagem de FIIs</a>
+<ul class="submenu-fiis scrollbar-y scrollbar-white">
+<li><a href="/fundo_imobiliario_lista" class="icon-regular_globe">Todos</a></li>
+<li><a href="/fundos-imobiliarios/39950/IFIX" class="icon-regular_more_options">Índice IFIX</a></li>
+<li><a href="/fundos-imobiliarios/34972/Agencias-Bancarias" class="icon-regular_bank">Agências Bancárias</a></li>
+<li><a href="/fundos-imobiliarios/51639/Agronegocio" class="icon-regular_agro">Agronegócio</a></li>
+<li><a href="/fundos-imobiliarios/34975/Educacional" class="icon-regular_book_open">Educacional</a></li>
+<li><a href="/fundos-imobiliarios/34978/Fundo de Fundos" class="icon-regular_pile">Fundo de Fundos</a></li>
+<li><a href="/fundos-imobiliarios/34976/Hospitais" class="icon-regular_hospital">Hospitais</a></li>
+<li><a href="/fundos-imobiliarios/34977/Hoteis" class="icon-regular_suitcase">Hotéis</a></li>
+<li><a href="/fundos-imobiliarios/34979/Hibrido" class="icon-regular_atom">Híbrido</a></li>
+<li><a href="/fundos-imobiliarios/34980/Incorporacao" class="icon-regular_circle_arrow_both_ways">Incorporação</a></li>
+<li><a href="/fundos-imobiliarios/34981/Incorporacao-Residencial" class="icon-regular_home_incorporation">Incorporação Residencial</a></li>
+<li><a href="/fundos-imobiliarios/56591/Residencial" class="icon-regular_home">Residencial</a></li>
+<li><a href="/fundos-imobiliarios/740/Lajes-Comerciais" class="icon-regular_building">Lajes Comerciais</a></li>
+<li><a href="/fundos-imobiliarios/34973/Logistica" class="icon-regular_bus">Logísticos</a></li>
+<li><a href="/fundos-imobiliarios/34983/Recebiveis-Imobiliarios" class="icon-regular_cash_payment">Recebíveis Imobiliários</a></li>
+<li><a href="/fundos-imobiliarios/34974/Shoppings-e-Varejo" class="icon-regular_shopping_bag">Shoppings / Varejo</a></li>
+<li><a href="/fundos-imobiliarios/34982/Outros" class="icon-regular_more_options">Outros</a></li>
+</ul>
+</li>
+<li class="has-sub"><a href="javascript:void(0);" class="icon-regular_building">Imóveis</a>
+<ul>
+<li><a href="/imoveis-de-fundos-imobiliarios" class="icon-regular_zoom">Pesquisa</a></li>
+<li><a href="/transacoes-de-venda-de-imoveis" class="icon-regular_cash">Transações de Vendas</a></li>
+<li><a href="/transacoes-de-locacoes" class="icon-regular_cash_payment">Transações de Locações</a></li>
+<li><a href="/dados-do-mercado-imobiliario-brasileiro" class="icon-regular_chart_line">Dados do Mercado Imobiliário</a></li>
+<li><a href="/monitor-de-eficiencia-dos-fundos-imobiliarios" class="icon-regular_home_incorporation">Monitor de Eficiência</a></li>
+</ul>
+</li>
+<li><a href="/monitor-de-eficiencia-dos-fundos-imobiliarios" class="icon-regular_home_incorporation">Monitor de Eficiência</a></li>
+<li><a href="/novas-emissoes-de-fundos-imobiliarios-oferta-publica" class="icon-regular_building_money">Novas Emissões</a></li>
+<li><a href="/fundo_imobiliario_lista?seguidos=true" class="icon-regular_list_validated">FIIs que sigo</a></li>
+<li><a href="/fundos_imobiliarios_ranking" class="icon-regular_chart_bar">Ranking</a></li>
+<li><a href="/juros-compostos" class="icon-regular_increase">Juros Compostos</a></li>
+<li><a href="/score" class="icon-regular_star_empty">Score</a></li>
+<li><a href="/proventos-rendimento-distribuicoes-amortizacoes" class="icon-regular_cash_payment">Rendimentos & Amortizações</a></li>
+<li><a href="/central_comunicados_fundos_imobiliarios" class="icon-regular_megaphone">Central de Comunicados</a></li>
+<li><a href="/assembleias_fundos_imobiliarios" class="icon-regular_users_multiple">Assembléias</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="has-sub icon-regular_light">Iniciantes</a>
+<ul>
+<li><a href="/cursos-de-fundos-imobiliarios" class="icon-regular_teacher">Clube FII Educação</a></li>
+<li><a href="/guia-de-fundos-imobiliarios" class="icon-regular_book_open">guia básico gratuito</a></li>
+<li><a href="/forum-fundos-imobiliarios-iniciantes" class="icon-regular_forum_beginners">fórum de iniciantes</a></li>
+<li><a href="/live-para-iniciantes-em-fundos-imobiliarios-com-nod" class="icon-regular_tv">clube fii live</a></li>
+<li><a href="/glossario" class="icon-regular_book_open">glossário</a></li>
+<li><a href="/faq" class="icon-regular_help">faq</a></li>
+</ul>
+</li>
+<li><a href="#" class="has-sub icon-regular_suitcase">Carteira</a>
+<ul class="submenu-fiis scrollbar-y scrollbar-white">
+<li><a href="/carteira-recomendada-fundos-imobiliarios" class="icon-regular_suitcase">Carteira Recomendada</a></li>
+<li><a href="/carteira_fundos_imobiliarios?tipo_funcao=mostra_head_registro_compra_venda" class="icon-regular_add">Criar nova carteira</a></li>
+<li><a href="/carteira_fundos_imobiliarios_listagem?publico=true" class="icon-regular_list">Carteiras públicas</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="has-sub icon-regular_satellite_dish">Radar</a>
+<ul class="submenu-fiis scrollbar-y scrollbar-white">
+<li><a href="/radar_cadastro_profile" class="icon-regular_add">criar novo profile</a></li>
+<li><a href="/radar_profile_publicos" class="icon-regular_list">profiles públicos</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="has-sub icon-regular_shopping_bag">Produtos e Serviços</a>
+<ul>
+<li><a href="/planos_assinatura" class="icon-regular_dollar_currency">Planos de Assinatura</a></li>
+<li><a href="/curso_fundos_imobiliarios_invista_em_imoveis_de_maneira_inteligente" class="icon-regular_teacher">Curso Fundos Imobiliários</a></li>
+<li><a href="/relatorios-e-artigos-de-fundos-imobiliarios" class="icon-regular_pdf">Relatórios de Análise</a></li>
+<li><a href="/cursos-de-fundos-imobiliarios" class="icon-regular_teacher">Clube FII Educação</a></li>
+<li><a href="/carteira-recomendada-fundos-imobiliarios" class="icon-regular_suitcase">Carteira Recomendada</a></li>
+<li><a href="/analise-de-fundos-imobiliarios" class="icon-regular_play">Vídeo Reports</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="has-sub icon-regular_chat_typing">Fórum</a>
+<ul class="submenu-fiis scrollbar-y scrollbar-white">
+<li><a href="/forum_fundos_imobiliarios" class="icon-regular_forum_fiis">fundos imobiliários</a></li>
+<li><a href="/forum-imposto-de-renda-e-tributacao-em-fundos-imobiliarios" class="icon-regular_forum_ir">imposto de renda e tributação</a></li>
+<li><a href="/forum-fundos-imobiliarios-iniciantes" class="icon-regular_forum_beginners">iniciantes</a></li>
+<li><a href="/forum_fundos_imobiliarios_monitor" class="icon-regular_forum_all">todos os fóruns</a></li>
+<li><a href="/feed/rss" class="icon-regular_rss">rss dos comentários</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="has-sub icon-regular_book_open">Conteúdo</a>
+<ul>
+<li><a href="https://www.clubefiinews.com.br/" target="_blank" class="icon-regular_newspaper">Notícias</a></li>
+<li><a href="/blog" class="icon-regular_blog">Blog</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL_K2r909439tUH1D8a-UF-LVG19G-L2IY&index=1" target="_blank" class="icon-regular_speech_bubble">Entrevistas</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL_K2r909439sqv7KfLoSL-1HNfM5Et169" target="_blank" class="icon-regular_microphone_on">Podcast</a></li>
+</ul>
+</li>
+</ul>
+<link href="/jquery/css/css_desktop.css" rel="stylesheet" />
+<link href="//cdn.clubefii.com.br/css/pages/radar-profile-visualizacao.css" rel="stylesheet" />
+<script>
+
+        
+
+  
+      $(document).ready(function () {
+
+          
+            $('#resultado_profile').load('/radar_profile_visualizacao_ajx?cod_pro=' + 51639 + '&preview=' + $.QueryString["preview"])
+        
+       
+
+          
+      
+          $('#mn_radar_profile_' + $.QueryString["cod_pro"]).css({ "color": "#9b133b" });
+          $('#mn_radar').css({ "color": "#9b133b" });
+
+          $('#mn_radar_mb').css({ "color": "#9b133b" });
+          $('#mn_radar_profile_mob' + $.QueryString["cod_pro"]).css({ "color": "#9b133b" });
+       
+
+      })
+        
+  </script>
+<div id="resultado_profile" class="desativa_selecao">
+<div id="buffering_radar_listagem"><img src="//cdn.clubefii.com.br/img/old/buffering.gif" /></div>
+</div>
+<div style="clear: both;"></div>
+<link rel="stylesheet" href="//cdn.clubefii.com.br/css/pages/cadastro.css">
+<section id="cadastro">
+<div>
+<h2><strong class="min-368">Cadastre-se gratuitamente e</strong> faça parte do maior site de Fundos Imobiliários do Brasil!</h2>
+<form onsubmit="cadastrar_usuario(this); return false;">
+<div>
+<label for="txt_cad_nam2">Nome Completo</label>
+<input type="text" id="txt_cad_nom2" name="txt_cad_nom" autocomplete="off" maxlength="70" required />
+</div>
+<div>
+<label for="txt_cad_ape2">Apelido nos Fóruns</label>
+<input type="text" id="txt_cad_ape2" name="txt_cad_ape" autocomplete="off" maxlength="15" required />
+</div>
+<div>
+<label for="txt_cad_eml2">Email</label>
+<input type="text" id="txt_cad_eml2" name="txt_cad_eml" autocomplete="off" maxlength="320" required />
+</div>
+<div>
+<label for="txt_sen2">Senha</label>
+<input type="password" id="txt_cad_sen2" maxlength="200" name="txt_cad_sen" autocomplete="off" required />
+</div>
+<div>
+<label for="txt_sen_con2">Confirme a senha</label>
+<input type="password" id="txt_cad_sen_con2" maxlength="200" name="txt_cad_sen_con" required />
+</div><button type="submit" class="btn-primary">Cadastrar-se<span class="icon-regular_user_add"></span></button>
+</form>
+<span>Efetuando o seu cadastro, você está concordando com os nossos <a href="#modalTermos" class="modal" title="Termos de Uso">termos de uso</a>.</span>
+<span>Será enviado um e-mail solicitando a confirmação do cadastro.</span>
+</div>
+</section>
+<footer id="footer">
+<div class="info">
+<img data-src="//cdn.clubefii.com.br/img/logo-branco.svg" alt="Logo Clube FII" />
+<p><a href="/fale_conosco">Contato</a> </p>
+</div>
+<nav>
+<div>
+<h3>iniciantes</h3>
+<ul>
+<li><a href="/guia-de-fundos-imobiliarios">Guia Básico Gratuito</a></li>
+<li><a href="/forum-fundos-imobiliarios-iniciantes">Fórum de Iniciantes</a></li>
+<li><a href="/analise-de-fundos-imobiliarios">Clube FII Live</a></li>
+<li><a href="/glossario">Glossário</a></li>
+<li><a href="/faq">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>ferramentas</h3>
+<ul>
+<li><a href="/score">Score</a></li>
+<li><a href="/fundos_imobiliarios_ranking">Ranking</a></li>
+<li><a href="/proventos-rendimento-distribuicoes-amortizacoes">Rendimentos & Amortizações</a></li>
+<li><a href="/central_comunicados_fundos_imobiliarios">Central de Comunicados</a></li>
+<li><a href="/assembleias_fundos_imobiliarios">Assembleias</a></li>
+<li><a href="/carteira_fundos_imobiliarios_listagem?publico=true">Carteira</a></li>
+<li><a href="/radar_profile_publicos">Radar</a></li>
+<li><a href="/juros-compostos">Juros Compostos</a></li>
+</ul>
+</div>
+<div>
+<h3>conteúdo</h3>
+<ul>
+<li><a href="/forum_fundos_imobiliarios">Fórum</a></li>
+<li><a href="/analise-de-fundos-imobiliarios">Video Reports</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL_K2r909439tUH1D8a-UF-LVG19G-L2IY" target="_blank">Entrevistas</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL_K2r909439sqv7KfLoSL-1HNfM5Et169" target="_blank">Podcast</a></li>
+<li><a href="/blog">Blog</a></li>
+</ul>
+</div>
+<div>
+<h3>produtos</h3>
+<ul>
+<li><a href="/planos_assinatura">Planos de Assinatura</a></li>
+<li><a href="/carteira-recomendada-fundos-imobiliarios">Carteira Recomendada</a></li>
+<li><a href="/relatorios-e-artigos-de-fundos-imobiliarios">Relatórios de Análise</a></li>
+<li><a href="/curso-presencial-de-fundos-imobiliarios">Curso Presencial de FIIs</a></li>
+<li><a href="/curso_fundos_imobiliarios_invista_em_imoveis_de_maneira_inteligente">Curso Online de FIIs</a></li>
+<li><a href="/relatorios-e-artigos-de-fundos-imobiliarios">Relatórios e Artigos</a></li>
+<li><a href="/analise-de-fundos-imobiliarios">Vídeo Reports</a></li>
+</ul>
+</div>
+<div class="sobre">
+<h3>sobre o clube fii</h3>
+<ul>
+<li><a href="#modalTermos" class="modal">Termos de Uso</a></li>
+<li><a href="#modalPolitica" class="modal">Política de Privacidade</a></li>
+<li><a href="/white_label">White Label</a></li>
+<li><a href="/sistema_afiliacao_clubefii">Sistema de Afiliação</a></li>
+<li><a href="/midia_kit">Anuncie</a></li>
+</ul>
+</div>
+</nav>
+<div class="social">
+<button class="icon-regular_arrow_up" aria-label="Ir para o topo"></button>
+<a aria-label="Youtube" href="https://www.youtube.com/ClubeFII" target="_blank" class="icon-regular_youtube"></a>
+<a aria-label="Instagran" href="https://www.instagram.com/clubefii/" target="_blank" class="icon-regular_instagram"></a>
+<a aria-label="Facebook" href="https://www.facebook.com/clubefii" target="_blank" class="icon-regular_facebook"></a>
+<a aria-label="Twitter" href="https://twitter.com/ClubeFII" target="_blank" class="icon-regular_twitter"></a>
+<a aria-label="RSS" href="/feed/rss.aspx" target="_blank" class="icon-regular_rss2"></a>
+</div>
+</footer>
+<div id="modalTermos" class="modal scroll" style="width: 640px;height: 768px;">
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h3 style="max-width: 300px;margin: 32px auto;">termos e condições</h3>
+<div src="/ajax/termos">
+ <img src="//cdn.clubefii.com.br/img/extras/load_color.svg" alt="Carregando..." /><br /><br />
+</div>
+</div>
+<div id="modalTermos_filiacao" class="modal scroll" style="width: 768px;">
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h3 style="margin-left: 5%;margin-right: 5%;">TERMO DE ADESÃO A PROGRAMA DE AFILIAÇÃO DE REVENDAS</h3>
+<div src="/ajax/termos_filiacao">
+<img src="//cdn.clubefii.com.br/img/extras/load_color.svg" alt="Carregando..." /><br /><br />
+</div>
+</div>
+<div id="modalPolitica" class="modal scroll" style="width: 768px;">
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h3>Política de Privacidade</h3>
+<div src="/ajax/politica">
+<img src="//cdn.clubefii.com.br/img/extras/load_color.svg" alt="Carregando..." /><br /><br />
+</div>
+</div>
+<div id="modalPlanos" class="modal hasNav" style="width: 640px;height: 600px;">
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h4>somente para assinantes</h4>
+<strong>esta funcionalidade está disponível somente para assinantes</strong>
+<iframe id="frame_youtube" style="margin-bottom: 24px;" data-src="https://www.youtube.com/embed/vXqnaKHeQpo?&amp;autoplay=1&amp;rel=0&amp;theme=light&amp;showinfo=0&amp;controls=1&amp;hd=1&amp;autohide=1&amp;color=white" allowtransparency="true" frameborder="0" allowfullscreen=""></iframe>
+<form>
+<nav class="x1">
+<a class="btn-primary" href="/planos_assinatura.aspx" style="width: 100%;">conheça nossos planos de assinatura<span class="icon-regular_dollar_currency"></span></a>
+</nav>
+</form>
+</div>
+<div id="modalPlano_FII_DATA_PRO" class="modal hasNav" style="width: 640px;height: 600px;">
+<img src="//cdn.clubefii.com.br/img/icons/border/close.svg" alt="Fechar" class="close" />
+<h4>somente para assinantes</h4>
+<strong>FUNCIONALIDADE DISPONÍVEL SÓ PARA ASSINANTES DO FII DATA PROFESSIONAL!</strong>
+<iframe id="frame_youtube" style="margin-bottom: 24px;" data-src="https://www.youtube.com/embed/AcBjz8gCPms?&amp;autoplay=1&amp;rel=0&amp;theme=light&amp;showinfo=0&amp;controls=1&amp;hd=1&amp;autohide=1&amp;color=white" allowtransparency="true" frameborder="0" allowfullscreen=""></iframe>
+<form>
+<nav class="x1">
+<a class="btn-primary" href="/plano-de-assinatura-fii-data-professional?ori=popup" style="width: 100%;">CONHEÇA O FII DATA PROFESSIONAL<span class="icon-regular_dollar_currency"></span></a>
+</nav>
+</form>
+</div>
+<div id="modalConfigurarUser" class="modal hasNav" style="width: 640px;">
+<img src="//cdn.clubefii.com.br/img/extras/load_color.svg" alt="Carregando..." style="width: 128px;margin-top: 64px;">
+</div>
+<div id="disclaimer-alert">O Clube FII preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento, não se responsabilizando por perdas, danos (diretos, indiretos e incidentais), custos e lucros cessantes.</div>
+<script src="//cdn.clubefii.com.br/js/scripts.js?v=64" async></script>
+<noscript id="deferred-styles">
+      <link rel="stylesheet" href="//cdn.clubefii.com.br/css/klavika.css?v=2">
+
+      <link rel="stylesheet" href="//cdn.clubefii.com.br/icons/icons17.css">
+
+    </noscript>
+<script>
+        if (typeof $.cookie("modalExemplo") == 'undefined' && $('#modalExemplo').length) {
+            setTimeout(function () {
+                showModal('#modalExemplo');
+
+                var date = new Date();
+                //date.setTime(date.getTime() + (1 * 1 * 60 * 1440 * 1000)); //expira 24hrs
+                //date.setTime(date.getTime() + (1 * 1 * 60 * 720 * 1000)); //expira 12hrs
+                date.setTime(date.getTime() + (1 * 1 * 60 * 360 * 1000)); //expira 6hrs
+
+                var expires = "; expires=" + date.toGMTString();
+
+                document.cookie = "modalExemplo=true" + expires + "; path=/";
+            }, 1000);
+        }
+    </script>
+<style>
+.cookie-alert {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 365px;
+  margin: 0 !important;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 500ms ease-out;
+}
+
+.cookie-alert.show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition-delay: 1000ms;
+}
+
+.text-wine {
+    color: #9B133B !important;
+}
+
+@media only screen and (max-width: 425px) {
+    
+    .cookie-alert {
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .btn-primary {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        padding-left: 5px;
+    }
+
+    .btn-primary span {
+        margin: 0;
+    }
+}
+
+</style>
+<div class="card cookie-alert">
+<div class="card-header">
+<h5 class="font-subtitle-medium">&#x1F36A; Cookies</h5>
+</div>
+<div class="card-body">
+<p class="font-body-medium">Nós utilizamos cookies para melhorar sua experiência de navegação e fornecer o melhor serviço possível. Para desativar os cookies, acesse as configurações de seu navegador. Para saber mais sobre como seus dados pessoais são tratados pelo Clube FII acesse nossa <a href="javascript:void(0);" class="text-wine" onclick="showModal('#modalPolitica');">política de privacidade</a>.</p>
+</div>
+<div class="card-footer d-flex justify-content-between">
+<a class="btn-green accept-cookies" href="#">Aceitar</a>
+</div>
+</div>
+<script>
+    (function () {
+        "use strict";
+
+        var cookieAlert = document.querySelector(".cookie-alert");
+        var acceptCookies = document.querySelector(".accept-cookies");
+
+        cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+        if (!getCookie("acceptCookies")) {
+            cookieAlert.classList.add("show");
+        }
+
+        acceptCookies.addEventListener("click", function () {
+            setCookie("acceptCookies", true, 60);
+            cookieAlert.classList.remove("show");
+        });
+    })();
+
+    // Cookie functions stolen from w3schools
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) === 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+</script>
+</body>
+</html>
