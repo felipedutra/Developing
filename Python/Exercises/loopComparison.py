@@ -82,7 +82,7 @@ def main():
     print('sum generator\t\t', timeit.timeit(sum_generator, number=1))
     print('sum list comp\t\t', timeit.timeit(sum_list_comp, number=1))
     print('numpy sum\t\t', timeit.timeit(sum_numpy, number=1))
-    #print('numpy sum python range\t\t', timeit.timeit(sum_numpy_python_range, number=1))
+    print('numpy sum python range\t\t', timeit.timeit(sum_numpy_python_range, number=1))
     print('math sum\t\t', timeit.timeit(sum_math, number=1))
 
 

@@ -26,7 +26,7 @@ NUSP = 11806851  ; % NUSP do 1o aluno (ordem alfab.)
 a=  10    ; # dimens�es em cm
 b=  6   ;
 c=  3   ;
-d=  b-4   ;
+d=  b-3   ;
 g=  4    ;
 h=(b-d)/2;
 epsr=   2   ;
@@ -43,10 +43,10 @@ Vmax=  100;   % Volts
 %%%% A variavel dx abaixo e' a discretizacao utilizada. Valores diferentes
 %%%% daqueles sugeridos abaixo nao funcionarao. Diminua o dx para gerar a
 %%%% versao final a ser entregue.
-%dx=0.05; % Tempo de execucao MUITO longo!!
+dx=0.05; % Tempo de execucao MUITO longo!!
 %dx=0.1;   % Tempo de execucao longo!!
 %dx=0.25;  % recomendado para a versao final
-dx=0.5;   %% Mude para dx=0.25 somente quando for gerar os resultados finais!!!
+%dx=0.5;   %% Mude para dx=0.25 somente quando for gerar os resultados finais!!!
 erro=0.0;
 start=start_Dual= 50;
 iter=0;
@@ -206,7 +206,7 @@ end
 %%%      CORRENTE TOTAL (A)
 %%
 Somat=sum(Phi_new(2,:))+sum(Phi_new(Ny-1,:))+sum(Phi_new(:,2))+sum(Phi_new(:,Nx-1));
-I = sigma * 1 * Somat;
+I = 1 * sigma  * Somat;
 %%%
 %%%       RESISTENCIA em ohms
 %%%
@@ -214,8 +214,7 @@ R = (Vmax - Vmin) / I;
 %%%
 %%%        CAPACITANCIA em pF
 %%%
-Q = (epsr * eps0) * 1 * Somat * 1e12;  %%% nC
-Cap = Q / (Vmax - Vmin);
+Cap= (eps0*epsr)/(R*sigma);
 %%%
 %%%     RESISTENCIA DUAL em ohms
 %%%
@@ -270,7 +269,7 @@ hold off
 %%%      ARQUIVO DE SAIDA COM O MAPA DOS QUADRADOS CURVILINEOS
 %%%(Grava na pasta exibida no Navegador de Arq. da interface gr�fica do Octave)
 %%%
-arq=['EC1_2022_QC_'.png'];
+arq=['EC1_2022_QC_',strusp,'.png'];
 print(FIG,arq);
 %%%%   ========================================================================
 %%%%  FIM
