@@ -6,7 +6,7 @@ ssh-keygen -t ed25519 -C "felipedutrateixeira@gmail.com"
 sudo du -shc *
 
 git config --global user.email felipedutrateixeira@gmail.com
-git config --global user.name Felipe
+git config --global user.name felipedutra
 ls | wc -l
 
 
