@@ -49,48 +49,23 @@ sudo dnf install samba
 sudo systemctl enable smb --now
 sudo smbpasswd -a felipedutra
 sudo semanage fcontext --add --type "samba_share_t" ~/
-sudo semanage fcontext --add --type "samba_share_t" /mnt/HD1/
-sudo semanage fcontext --add --type "samba_share_t" /mnt/HD2/
-sudo semanage fcontext --add --type "samba_share_t" /mnt/HD3/
-#sudo semanage fcontext --add --type "samba_share_t" /mnt/HD4/
+sudo semanage fcontext --add --type "samba_share_t" /mnt/HD/
 sudo restorecon -R ~/
-sudo restorecon -R /mnt/HD1/
-sudo restorecon -R /mnt/HD2/
-sudo restorecon -R /mnt/HD3/
-#sudo restorecon -R /mnt/HD4/
+sudo restorecon -R /mnt/HD/
+
 sudo nano /etc/samba/smb.conf
-[HD1]
+[HD]
        	comment = My Share
-        path =  /mnt/HD1
+        path =  /mnt/HD
         writeable = yes
         browseable = yes
         public = yes
         create mask = 0644
         directory mask = 0755
         write list = user
-
-[HD2]
-     	  comment = My Share
-        path =  /mnt/HD2
-        writeable = yes
-        browseable = yes
-        public = yes
-        create mask = 0644
-        directory mask = 0755
-        write list = user
-
-[HD3]
+[felipedutra]
      	comment = My Share
-        path =  /mnt/HD3
-        writeable = yes
-        browseable = yes
-        public = yes
-        create mask = 0644
-        directory mask = 0755
-        write list = user
-[HD4]
-     	comment = My Share
-        path =  /mnt/HD4
+        path =  ~/
         writeable = yes
         browseable = yes
         public = yes
