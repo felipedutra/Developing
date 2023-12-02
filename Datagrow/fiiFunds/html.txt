@@ -1,0 +1,811 @@
+<tbody>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/AGRX11"> AGRX11 </a></td>
+<td> <a href="/fiis/AGRX11"> Exes Araguaia Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/AGRX11">
+<span id="valor_atual_cota" class="row-price">10,40 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,1% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:45:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/AGRX11"> 04/08/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',48141961.11,'R$','')</script>
+<td> <a href="/fiis/AGRX11"> R$48.141.961,11 </a></td>
+<td> <a href="/fiis/AGRX11"> R$10,19 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',49146739.20,'R$','')</script>
+<td> <a href="/fiis/AGRX11"> R$49.146.739,20 </a></td>
+<td> <a href="/fiis/AGRX11"> N/D </a></td>
+<td> <a href="/fiis/AGRX11"> </a></td>
+<td> <a href="/fiis/AGRX11"> </a></td>
+<script>adiciona_total('vpa','P/VPA',1.02,'','')</script>
+<td> <a href="/fiis/AGRX11"> 1,02 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',214,'','')</script>
+<td> <a href="/fiis/AGRX11"> 214 </a></td>
+<td> <a href="/fiis/AGRX11"> BANCO GENIAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',5039.95,'R$','')</script>
+<td> <a href="/fiis/AGRX11"> R$5.039,95 </a></td>
+<td> <a href="/fiis/AGRX11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/BBGO11"> BBGO11 </a></td>
+<td> <a href="/fiis/BBGO11"> BB Crédito Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/BBGO11">
+<span id="valor_atual_cota" class="row-price">85,62 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,21% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:58:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/BBGO11"> 01/02/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',392586479.86,'R$','')</script>
+<td> <a href="/fiis/BBGO11"> R$392.586.479,86 </a></td>
+<td> <a href="/fiis/BBGO11"> R$98,02 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',342922141.68,'R$','')</script>
+<td> <a href="/fiis/BBGO11"> R$342.922.141,68 </a></td>
+<td> <a href="/fiis/BBGO11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',0.93,'','%')</script>
+<td> <a href="/fiis/BBGO11"> 0,93% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',6.58,'','%')</script>
+ <td> <a href="/fiis/BBGO11"> 6,58% </a></td>
+<script>adiciona_total('vpa','P/VPA',0.87,'','')</script>
+<td> <a href="/fiis/BBGO11"> 0,87 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',6231,'','')</script>
+<td> <a href="/fiis/BBGO11"> 6.231 </a></td>
+<td> <a href="/fiis/BBGO11"> BB GESTAO DE RECURSOS </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',169492.31,'R$','')</script>
+<td> <a href="/fiis/BBGO11"> R$169.492,31 </a></td>
+<td> <a href="/fiis/BBGO11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/BTAL11"> BTAL11 </a></td>
+<td> <a href="/fiis/BTAL11"> Btg Pactual Agro Logística </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/BTAL11">
+<span id="valor_atual_cota" class="row-price">100,94 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,94% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:57:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/BTAL11"> 29/01/2021 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',636073252.98,'R$','')</script>
+<td> <a href="/fiis/BTAL11"> R$636.073.252,98 </a></td>
+<td> <a href="/fiis/BTAL11"> R$106,32 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',603897371.84,'R$','')</script>
+<td> <a href="/fiis/BTAL11"> R$603.897.371,84 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',1.96,'','%')</script>
+<td> <a href="/fiis/BTAL11"> 1,96% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',0.82,'','%')</script>
+<td> <a href="/fiis/BTAL11"> 0,82% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',9.72,'','%')</script>
+<td> <a href="/fiis/BTAL11"> 9,72% </a></td>
+<script>adiciona_total('vpa','P/VPA',0.95,'','')</script>
+<td> <a href="/fiis/BTAL11"> 0,95 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',36088,'','')</script>
+<td> <a href="/fiis/BTAL11"> 36.088 </a></td>
+ <td> <a href="/fiis/BTAL11"> btg pactual </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',1024085.47,'R$','')</script>
+<td> <a href="/fiis/BTAL11"> R$1.024.085,47 </a></td>
+<td> <a href="/fiis/BTAL11"> 0,53% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/BTRA11"> BTRA11 </a></td>
+<td> <a href="/fiis/BTRA11"> BTG Pactual Terras Agrícolas </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/BTRA11">
+<span id="valor_atual_cota" class="row-price">90,20 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,99% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:59:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/BTRA11"> 30/07/2021 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',350107569.75,'R$','')</script>
+<td> <a href="/fiis/BTRA11"> R$350.107.569,75 </a></td>
+<td> <a href="/fiis/BTRA11"> R$104,06 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',303483221.80,'R$','')</script>
+<td> <a href="/fiis/BTRA11"> R$303.483.221,80 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',-9.56,'','%')</script>
+<td> <a href="/fiis/BTRA11"> -9,56% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',0.78,'','%')</script>
+<td> <a href="/fiis/BTRA11"> 0,78% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',10.74,'','%')</script>
+<td> <a href="/fiis/BTRA11"> 10,74% </a></td>
+<script>adiciona_total('vpa','P/VPA',0.87,'','')</script>
+<td> <a href="/fiis/BTRA11"> 0,87 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',19310,'','')</script>
+<td> <a href="/fiis/BTRA11"> 19.310 </a></td>
+<td> <a href="/fiis/BTRA11"> btg pactual </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',728062.35,'R$','')</script>
+<td> <a href="/fiis/BTRA11"> R$728.062,35 </a></td>
+<td> <a href="/fiis/BTRA11"> 0,26% </a></td>
+</tr>
+<tr class="tabela_principal ">
+ <td> <a href="/fiis/CPTR11"> CPTR11 </a></td>
+<td> <a href="/fiis/CPTR11"> Capitânia Agro Strategies Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/CPTR11">
+<span id="valor_atual_cota" class="row-price">104,60 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,28% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:58:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/CPTR11"> 22/06/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',103820409.11,'R$','')</script>
+<td> <a href="/fiis/CPTR11"> R$103.820.409,11 </a></td>
+<td> <a href="/fiis/CPTR11"> R$100,19 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',108393842.00,'R$','')</script>
+<td> <a href="/fiis/CPTR11"> R$108.393.842,00 </a></td>
+<td> <a href="/fiis/CPTR11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.34,'','%')</script>
+<td> <a href="/fiis/CPTR11"> 1,34% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',6.36,'','%')</script>
+<td> <a href="/fiis/CPTR11"> 6,36% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.04,'','')</script>
+<td> <a href="/fiis/CPTR11"> 1,04 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',437,'','')</script>
+<td> <a href="/fiis/CPTR11"> 437 </a></td>
+<td> <a href="/fiis/CPTR11"> BTG PACTUAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',691181.29,'R$','')</script>
+<td> <a href="/fiis/CPTR11"> R$691.181,29 </a></td>
+<td> <a href="/fiis/CPTR11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/DCRA11"> DCRA11 </a></td>
+<td> <a href="/fiis/DCRA11"> Devant Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/DCRA11">
+<span id="valor_atual_cota" class="row-price">9,59 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,84% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:56:00 </small>
+
+</a>
+</td>
+<td> <a href="/fiis/DCRA11"> 08/02/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',64898556.25,'R$','')</script>
+<td> <a href="/fiis/DCRA11"> R$64.898.556,25 </a></td>
+<td> <a href="/fiis/DCRA11"> R$9,60 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',64818474.35,'R$','')</script>
+<td> <a href="/fiis/DCRA11"> R$64.818.474,35 </a></td>
+<td> <a href="/fiis/DCRA11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.15,'','%')</script>
+<td> <a href="/fiis/DCRA11"> 1,15% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',9.59,'','%')</script>
+<td> <a href="/fiis/DCRA11"> 9,59% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.00,'','')</script>
+<td> <a href="/fiis/DCRA11"> 1,00 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',8460,'','')</script>
+<td> <a href="/fiis/DCRA11"> 8.460 </a></td>
+<td> <a href="/fiis/DCRA11"> BANCO DAYCOVAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',332848.01,'R$','')</script>
+<td> <a href="/fiis/DCRA11"> R$332.848,01 </a></td>
+<td> <a href="/fiis/DCRA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/EGAF11"> EGAF11 </a></td>
+<td> <a href="/fiis/EGAF11"> Ecoagro I Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/EGAF11">
+<span id="valor_atual_cota" class="row-price">100,00 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,06% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:53:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/EGAF11"> 28/01/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',29734178.65,'R$','')</script>
+<td> <a href="/fiis/EGAF11"> R$29.734.178,65 </a></td>
+<td> <a href="/fiis/EGAF11"> R$98,58 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',30161000.00,'R$','')</script>
+ <td> <a href="/fiis/EGAF11"> R$30.161.000,00 </a></td>
+<td> <a href="/fiis/EGAF11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',4.36,'','%')</script>
+<td> <a href="/fiis/EGAF11"> 4,36% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',13.63,'','%')</script>
+<td> <a href="/fiis/EGAF11"> 13,63% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.01,'','')</script>
+<td> <a href="/fiis/EGAF11"> 1,01 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',1446,'','')</script>
+<td> <a href="/fiis/EGAF11"> 1.446 </a></td>
+<td> <a href="/fiis/EGAF11"> VÓRTX </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',137817.57,'R$','')</script>
+<td> <a href="/fiis/EGAF11"> R$137.817,57 </a></td>
+<td> <a href="/fiis/EGAF11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/FARM11"> FARM11 </a></td>
+<td> <a href="/fiis/FARM11"> Santa Fé Terra Matter </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/FARM11">
+N/D
+</a>
+</td>
+<td> <a href="/fiis/FARM11"> N/D </a></td>
+<td> <a href="/fiis/FARM11"> N/D </a></td>
+<td> <a href="/fiis/FARM11"> N/D </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',0.00,'R$','')</script>
+<td> <a href="/fiis/FARM11"> R$0,00 </a></td>
+<td> <a href="/fiis/FARM11"> N/D </a></td>
+<td> <a href="/fiis/FARM11"> </a></td>
+<td> <a href="/fiis/FARM11"> </a></td>
+<td> <a href="/fiis/FARM11"> N/D </a></td>
+<td> <a href="/fiis/FARM11"> </a></td>
+<td> <a href="/fiis/FARM11"> MAF </a></td>
+<td> <a href="/fiis/FARM11"> </a></td>
+<td> <a href="/fiis/FARM11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/FGAA11"> FGAA11 </a></td>
+<td> <a href="/fiis/FGAA11"> FG/Agro Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/FGAA11">
+
+<span id="valor_atual_cota" class="row-price">9,97 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,1% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:59:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/FGAA11"> 12/01/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',329658928.20,'R$','')</script>
+<td> <a href="/fiis/FGAA11"> R$329.658.928,20 </a></td>
+<td> <a href="/fiis/FGAA11"> R$9,67 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',339953062.03,'R$','')</script>
+<td> <a href="/fiis/FGAA11"> R$339.953.062,03 </a></td>
+<td> <a href="/fiis/FGAA11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.40,'','%')</script>
+<td> <a href="/fiis/FGAA11"> 1,40% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',12.94,'','%')</script>
+<td> <a href="/fiis/FGAA11"> 12,94% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.03,'','')</script>
+<td> <a href="/fiis/FGAA11"> 1,03 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',15801,'','')</script>
+<td> <a href="/fiis/FGAA11"> 15.801 </a></td>
+<td> <a href="/fiis/FGAA11"> BRL TRUST </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',1608932.10,'R$','')</script>
+<td> <a href="/fiis/FGAA11"> R$1.608.932,10 </a></td>
+<td> <a href="/fiis/FGAA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/FZDA11"> FZDA11 </a></td>
+<td> <a href="/fiis/FZDA11"> 051 Agro Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/FZDA11">
+<span id="valor_atual_cota" class="row-price">107,00 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,94% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 14:10:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/FZDA11"> N/D </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',154391540.98,'R$','')</script>
+
+<td> <a href="/fiis/FZDA11"> R$154.391.540,98 </a></td>
+<td> <a href="/fiis/FZDA11"> R$99,61 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',165850000.00,'R$','')</script>
+<td> <a href="/fiis/FZDA11"> R$165.850.000,00 </a></td>
+<td> <a href="/fiis/FZDA11"> N/D </a></td>
+<td> <a href="/fiis/FZDA11"> </a></td>
+<td> <a href="/fiis/FZDA11"> </a></td>
+<script>adiciona_total('vpa','P/VPA',1.07,'','')</script>
+<td> <a href="/fiis/FZDA11"> 1,07 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',35,'','')</script>
+<td> <a href="/fiis/FZDA11"> 35 </a></td>
+<td> <a href="/fiis/FZDA11"> XP&nbsp;INVESTIMENTOS </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',302975.00,'R$','')</script>
+<td> <a href="/fiis/FZDA11"> R$302.975,00 </a></td>
+<td> <a href="/fiis/FZDA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/GCRA11"> GCRA11 </a></td>
+<td> <a href="/fiis/GCRA11"> Galapagos Recebíveis do Agronegócio Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/GCRA11">
+<span id="valor_atual_cota" class="row-price">99,80 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,03% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:53:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/GCRA11"> 19/01/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',171395771.03,'R$','')</script>
+<td> <a href="/fiis/GCRA11"> R$171.395.771,03 </a></td>
+<td> <a href="/fiis/GCRA11"> R$97,89 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',174736327.00,'R$','')</script>
+<td> <a href="/fiis/GCRA11"> R$174.736.327,00 </a></td>
+<td> <a href="/fiis/GCRA11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.20,'','%')</script>
+<td> <a href="/fiis/GCRA11"> 1,20% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',11.94,'','%')</script>
+<td> <a href="/fiis/GCRA11"> 11,94% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.02,'','')</script>
+<td> <a href="/fiis/GCRA11"> 1,02 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',5120,'','')</script>
+<td> <a href="/fiis/GCRA11"> 5.120 </a></td>
+<td> <a href="/fiis/GCRA11"> SINGULARE </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',285482.48,'R$','')</script>
+<td> <a href="/fiis/GCRA11"> R$285.482,48 </a></td>
+<td> <a href="/fiis/GCRA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/HGAG11"> HGAG11 </a></td>
+<td> <a href="/fiis/HGAG11"> High Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/HGAG11">
+<span id="valor_atual_cota" class="row-price">103,50 </span>
+<span id="valor_variacao_cota" class="badge badge-success">0% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 14:14:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/HGAG11"> N/D </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',25431166.38,'R$','')</script>
+<td> <a href="/fiis/HGAG11"> R$25.431.166,38 </a></td>
+<td> <a href="/fiis/HGAG11"> R$102,44 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',25694082.00,'R$','')</script>
+<td> <a href="/fiis/HGAG11"> R$25.694.082,00 </a></td>
+<td> <a href="/fiis/HGAG11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',0.36,'','%')</script>
+<td> <a href="/fiis/HGAG11"> 0,36% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',1.18,'','%')</script>
+<td> <a href="/fiis/HGAG11"> 1,18% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.01,'','')</script>
+<td> <a href="/fiis/HGAG11"> 1,01 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',75,'','')</script>
+<td> <a href="/fiis/HGAG11"> 75 </a></td>
+<td> <a href="/fiis/HGAG11"> VÓRTX </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',152403.63,'R$','')</script>
+<td> <a href="/fiis/HGAG11"> R$152.403,63 </a></td>
+<td> <a href="/fiis/HGAG11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/JGPX11"> JGPX11 </a></td>
+<td> <a href="/fiis/JGPX11"> JGP Crédito Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/JGPX11">
+<span id="valor_atual_cota" class="row-price">97,50 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,27% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:55:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/JGPX11"> 29/11/2021 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',81234893.38,'R$','')</script>
+<td> <a href="/fiis/JGPX11"> R$81.234.893,38 </a></td>
+<td> <a href="/fiis/JGPX11"> R$95,78 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',82689457.50,'R$','')</script>
+<td> <a href="/fiis/JGPX11"> R$82.689.457,50 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',-0.51,'','%')</script>
+<td> <a href="/fiis/JGPX11"> -0,51% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.22,'','%')</script>
+<td> <a href="/fiis/JGPX11"> 1,22% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',11.67,'','%')</script>
+<td> <a href="/fiis/JGPX11"> 11,67% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.02,'','')</script>
+<td> <a href="/fiis/JGPX11"> 1,02 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',3321,'','')</script>
+<td> <a href="/fiis/JGPX11"> 3.321 </a></td>
+<td> <a href="/fiis/JGPX11"> BANCO DAYCOVAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',255731.42,'R$','')</script>
+<td> <a href="/fiis/JGPX11"> R$255.731,42 </a></td>
+<td> <a href="/fiis/JGPX11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/KNCA11"> KNCA11 </a></td>
+<td> <a href="/fiis/KNCA11"> Kinea Crédito Agro Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/KNCA11">
+<span id="valor_atual_cota" class="row-price">106,20 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,2% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:58:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/KNCA11"> 18/01/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',827270705.77,'R$','')</script>
+<td> <a href="/fiis/KNCA11"> R$827.270.705,77 </a></td>
+<td> <a href="/fiis/KNCA11"> R$102,13 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',860211397.80,'R$','')</script>
+<td> <a href="/fiis/KNCA11"> R$860.211.397,80 </a></td>
+<td> <a href="/fiis/KNCA11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.32,'','%')</script>
+<td> <a href="/fiis/KNCA11"> 1,32% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',11.06,'','%')</script>
+<td> <a href="/fiis/KNCA11"> 11,06% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.04,'','')</script>
+<td> <a href="/fiis/KNCA11"> 1,04 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',12678,'','')</script>
+<td> <a href="/fiis/KNCA11"> 12.678 </a></td>
+<td> <a href="/fiis/KNCA11"> INTRAG </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',1409926.30,'R$','')</script>
+<td> <a href="/fiis/KNCA11"> R$1.409.926,30 </a></td>
+<td> <a href="/fiis/KNCA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/LSAG11"> LSAG11 </a></td>
+<td> <a href="/fiis/LSAG11"> Leste Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/LSAG11">
+<span id="valor_atual_cota" class="row-price">104,50 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,47% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:49:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/LSAG11"> 01/04/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',57412243.36,'R$','')</script>
+<td> <a href="/fiis/LSAG11"> R$57.412.243,36 </a></td>
+<td> <a href="/fiis/LSAG11"> R$101,88 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',58889616.50,'R$','')</script>
+<td> <a href="/fiis/LSAG11"> R$58.889.616,50 </a></td>
+<td> <a href="/fiis/LSAG11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.84,'','%')</script>
+<td> <a href="/fiis/LSAG11"> 1,84% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',7.82,'','%')</script>
+<td> <a href="/fiis/LSAG11"> 7,82% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.03,'','')</script>
+<td> <a href="/fiis/LSAG11"> 1,03 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',204,'','')</script>
+<td> <a href="/fiis/LSAG11"> 204 </a></td>
+<td> <a href="/fiis/LSAG11"> BANCO GENIAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',28144.25,'R$','')</script>
+<td> <a href="/fiis/LSAG11"> R$28.144,25 </a></td>
+<td> <a href="/fiis/LSAG11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/NCRA11"> NCRA11 </a></td>
+<td> <a href="/fiis/NCRA11"> NCH EQI Recebíveis do Agronegócio Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/NCRA11">
+<span id="valor_atual_cota" class="row-price">93,11 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,12% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:58:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/NCRA11"> N/D </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',38030438.51,'R$','')</script>
+<td> <a href="/fiis/NCRA11"> R$38.030.438,51 </a></td>
+<td> <a href="/fiis/NCRA11"> R$94,66 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',37406290.73,'R$','')</script>
+<td> <a href="/fiis/NCRA11"> R$37.406.290,73 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',-8.54,'','%')</script>
+
+<td> <a href="/fiis/NCRA11"> -8,54% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.29,'','%')</script>
+<td> <a href="/fiis/NCRA11"> 1,29% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',6.91,'','%')</script>
+<td> <a href="/fiis/NCRA11"> 6,91% </a></td>
+<script>adiciona_total('vpa','P/VPA',0.98,'','')</script>
+<td> <a href="/fiis/NCRA11"> 0,98 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',1449,'','')</script>
+<td> <a href="/fiis/NCRA11"> 1.449 </a></td>
+<td> <a href="/fiis/NCRA11"> BTG PACTUAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',117187.33,'R$','')</script>
+<td> <a href="/fiis/NCRA11"> R$117.187,33 </a></td>
+<td> <a href="/fiis/NCRA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/OIAG11"> OIAG11 </a></td>
+<td> <a href="/fiis/OIAG11"> Ourinvest Innovation Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/OIAG11">
+<span id="valor_atual_cota" class="row-price">9,78 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,41% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:58:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/OIAG11"> 24/05/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',41102758.76,'R$','')</script>
+<td> <a href="/fiis/OIAG11"> R$41.102.758,76 </a></td>
+<td> <a href="/fiis/OIAG11"> R$9,87 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',40742413.98,'R$','')</script>
+<td> <a href="/fiis/OIAG11"> R$40.742.413,98 </a></td>
+<td> <a href="/fiis/OIAG11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.43,'','%')</script>
+<td> <a href="/fiis/OIAG11"> 1,43% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',4.92,'','%')</script>
+<td> <a href="/fiis/OIAG11"> 4,92% </a></td>
+<script>adiciona_total('vpa','P/VPA',0.99,'','')</script>
+
+<td> <a href="/fiis/OIAG11"> 0,99 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',1159,'','')</script>
+<td> <a href="/fiis/OIAG11"> 1.159 </a></td>
+<td> <a href="/fiis/OIAG11"> SINGULARE </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',83499.48,'R$','')</script>
+<td> <a href="/fiis/OIAG11"> R$83.499,48 </a></td>
+<td> <a href="/fiis/OIAG11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/PLCA11"> PLCA11 </a></td>
+<td> <a href="/fiis/PLCA11"> Plural BRB Crédito Agro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/PLCA11">
+<span id="valor_atual_cota" class="row-price">97,14 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,26% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:42:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/PLCA11"> N/D </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',52988673.24,'R$','')</script>
+<td> <a href="/fiis/PLCA11"> R$52.988.673,24 </a></td>
+<td> <a href="/fiis/PLCA11"> R$95,13 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',54108825.66,'R$','')</script>
+<td> <a href="/fiis/PLCA11"> R$54.108.825,66 </a></td>
+<td> <a href="/fiis/PLCA11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.08,'','%')</script>
+<td> <a href="/fiis/PLCA11"> 1,08% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',2.01,'','%')</script>
+<td> <a href="/fiis/PLCA11"> 2,01% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.02,'','')</script>
+<td> <a href="/fiis/PLCA11"> 1,02 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',1457,'','')</script>
+<td> <a href="/fiis/PLCA11"> 1.457 </a></td>
+<td> <a href="/fiis/PLCA11"> BANCO GENIAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',46884.13,'R$','')</script>
+<td> <a href="/fiis/PLCA11"> R$46.884,13 </a></td>
+
+<td> <a href="/fiis/PLCA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/QAGR11"> QAGR11 </a></td>
+<td> <a href="/fiis/QAGR11"> Quasar Agro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/QAGR11">
+<span id="valor_atual_cota" class="row-price">46,56 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,58% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:59:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/QAGR11"> 12/11/2019 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',281594287.60,'R$','')</script>
+<td> <a href="/fiis/QAGR11"> R$281.594.287,60 </a></td>
+<td> <a href="/fiis/QAGR11"> R$55,87 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',234662400.00,'R$','')</script>
+<td> <a href="/fiis/QAGR11"> R$234.662.400,00 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',-5.92,'','%')</script>
+<td> <a href="/fiis/QAGR11"> -5,92% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',0.88,'','%')</script>
+<td> <a href="/fiis/QAGR11"> 0,88% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',10.13,'','%')</script>
+<td> <a href="/fiis/QAGR11"> 10,13% </a></td>
+<script>adiciona_total('vpa','P/VPA',0.83,'','')</script>
+<td> <a href="/fiis/QAGR11"> 0,83 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',25309,'','')</script>
+<td> <a href="/fiis/QAGR11"> 25.309 </a></td>
+<td> <a href="/fiis/QAGR11"> BTG PACTUAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',355719.79,'R$','')</script>
+<td> <a href="/fiis/QAGR11"> R$355.719,79 </a></td>
+<td> <a href="/fiis/QAGR11"> 0,21% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/RURA11"> RURA11 </a></td>
+<td> <a href="/fiis/RURA11"> Itaú Asset Rural Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/RURA11">
+<span id="valor_atual_cota" class="row-price">10,29 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,29% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:50:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/RURA11"> 09/03/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',600912637.93,'R$','')</script>
+<td> <a href="/fiis/RURA11"> R$600.912.637,93 </a></td>
+<td> <a href="/fiis/RURA11"> R$10,02 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',617394947.61,'R$','')</script>
+<td> <a href="/fiis/RURA11"> R$617.394.947,61 </a></td>
+<td> <a href="/fiis/RURA11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.17,'','%')</script>
+<td> <a href="/fiis/RURA11"> 1,17% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',6.41,'','%')</script>
+<td> <a href="/fiis/RURA11"> 6,41% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.03,'','')</script>
+<td> <a href="/fiis/RURA11"> 1,03 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',9350,'','')</script>
+<td> <a href="/fiis/RURA11"> 9.350 </a></td>
+<td> <a href="/fiis/RURA11"> INTRAG </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',804671.46,'R$','')</script>
+<td> <a href="/fiis/RURA11"> R$804.671,46 </a></td>
+<td> <a href="/fiis/RURA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/RZAG11"> RZAG11 </a></td>
+<td> <a href="/fiis/RZAG11"> Riza Agro Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/RZAG11">
+<span id="valor_atual_cota" class="row-price">10,18 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,29% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:59:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/RZAG11"> 06/10/2021 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',289102503.28,'R$','')</script>
+<td> <a href="/fiis/RZAG11"> R$289.102.503,28 </a></td>
+<td> <a href="/fiis/RZAG11"> R$9,53 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',308902836.20,'R$','')</script>
+<td> <a href="/fiis/RZAG11"> R$308.902.836,20 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',3.88,'','%')</script>
+<td> <a href="/fiis/RZAG11"> 3,88% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.38,'','%')</script>
+<td> <a href="/fiis/RZAG11"> 1,38% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',12.51,'','%')</script>
+<td> <a href="/fiis/RZAG11"> 12,51% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.07,'','')</script>
+<td> <a href="/fiis/RZAG11"> 1,07 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',37715,'','')</script>
+<td> <a href="/fiis/RZAG11"> 37.715 </a></td>
+<td> <a href="/fiis/RZAG11"> BANCO GENIAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',1519282.31,'R$','')</script>
+<td> <a href="/fiis/RZAG11"> R$1.519.282,31 </a></td>
+<td> <a href="/fiis/RZAG11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/RZTR11"> RZTR11 </a></td>
+<td> <a href="/fiis/RZTR11"> Riza Terrax </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/RZTR11">
+<span id="valor_atual_cota" class="row-price">103,06 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-1% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:59:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/RZTR11"> 05/10/2020 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',1077478349.84,'R$','')</script>
+<td> <a href="/fiis/RZTR11"> R$1.077.478.349,84 </a></td>
+<td> <a href="/fiis/RZTR11"> R$97,53 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',1138608735.08,'R$','')</script>
+<td> <a href="/fiis/RZTR11"> R$1.138.608.735,08 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',1.27,'','%')</script>
+ <td> <a href="/fiis/RZTR11"> 1,27% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.21,'','%')</script>
+<td> <a href="/fiis/RZTR11"> 1,21% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',14.26,'','%')</script>
+<td> <a href="/fiis/RZTR11"> 14,26% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.06,'','')</script>
+<td> <a href="/fiis/RZTR11"> 1,06 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',67848,'','')</script>
+<td> <a href="/fiis/RZTR11"> 67.848 </a></td>
+<td> <a href="/fiis/RZTR11"> BANCO GENIAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',3700756.07,'R$','')</script>
+<td> <a href="/fiis/RZTR11"> R$3.700.756,07 </a></td>
+<td> <a href="/fiis/RZTR11"> 1,04% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/SNAG11"> SNAG11 </a></td>
+<td> <a href="/fiis/SNAG11"> Suno Agro Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/SNAG11">
+<span id="valor_atual_cota" class="row-price">101,05 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+1,05% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:57:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/SNAG11"> 08/08/2022 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',151541247.25,'R$','')</script>
+<td> <a href="/fiis/SNAG11"> R$151.541.247,25 </a></td>
+<td> <a href="/fiis/SNAG11"> R$101,03 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',151575000.00,'R$','')</script>
+<td> <a href="/fiis/SNAG11"> R$151.575.000,00 </a></td>
+<td> <a href="/fiis/SNAG11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.19,'','%')</script>
+<td> <a href="/fiis/SNAG11"> 1,19% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',1.78,'','%')</script>
+<td> <a href="/fiis/SNAG11"> 1,78% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.00,'','')</script>
+
+<td> <a href="/fiis/SNAG11"> 1,00 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',15021,'','')</script>
+<td> <a href="/fiis/SNAG11"> 15.021 </a></td>
+<td> <a href="/fiis/SNAG11"> SINGULARE </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',3771251.29,'R$','')</script>
+<td> <a href="/fiis/SNAG11"> R$3.771.251,29 </a></td>
+<td> <a href="/fiis/SNAG11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/VCRA11"> VCRA11 </a></td>
+<td> <a href="/fiis/VCRA11"> Vectis Datagro Crédito Agronegócio Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/VCRA11">
+<span id="valor_atual_cota" class="row-price">106,73 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,01% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 14:26:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/VCRA11"> 29/12/2021 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',201329081.71,'R$','')</script>
+<td> <a href="/fiis/VCRA11"> R$201.329.081,71 </a></td>
+<td> <a href="/fiis/VCRA11"> R$102,50 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',209628819.92,'R$','')</script>
+<td> <a href="/fiis/VCRA11"> R$209.628.819,92 </a></td>
+<td> <a href="/fiis/VCRA11"> N/D </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.29,'','%')</script>
+<td> <a href="/fiis/VCRA11"> 1,29% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',5.06,'','%')</script>
+<td> <a href="/fiis/VCRA11"> 5,06% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.04,'','')</script>
+<td> <a href="/fiis/VCRA11"> 1,04 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',1905,'','')</script>
+<td> <a href="/fiis/VCRA11"> 1.905 </a></td>
+<td> <a href="/fiis/VCRA11"> INTRAG </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',202882.14,'R$','')</script>
+<td> <a href="/fiis/VCRA11"> R$202.882,14 </a></td>
+<td> <a href="/fiis/VCRA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/VGIA11"> VGIA11 </a></td>
+<td> <a href="/fiis/VGIA11"> Valora CRA Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/VGIA11">
+<span id="valor_atual_cota" class="row-price">10,01 </span>
+<span id="valor_variacao_cota" class="badge badge-danger">-0,4% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:59:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/VGIA11"> 24/11/2021 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',337648972.94,'R$','')</script>
+<td> <a href="/fiis/VGIA11"> R$337.648.972,94 </a></td>
+<td> <a href="/fiis/VGIA11"> R$9,56 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',353427454.38,'R$','')</script>
+<td> <a href="/fiis/VGIA11"> R$353.427.454,38 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',0.20,'','%')</script>
+<td> <a href="/fiis/VGIA11"> 0,20% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.60,'','%')</script>
+<td> <a href="/fiis/VGIA11"> 1,60% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',15.30,'','%')</script>
+<td> <a href="/fiis/VGIA11"> 15,30% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.05,'','')</script>
+<td> <a href="/fiis/VGIA11"> 1,05 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',16567,'','')</script>
+<td> <a href="/fiis/VGIA11"> 16.567 </a></td>
+<td> <a href="/fiis/VGIA11"> BTG PACTUAL </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',3640548.55,'R$','')</script>
+<td> <a href="/fiis/VGIA11"> R$3.640.548,55 </a></td>
+<td> <a href="/fiis/VGIA11"> 0,00% </a></td>
+</tr>
+<tr class="tabela_principal ">
+<td> <a href="/fiis/XPCA11"> XPCA11 </a></td>
+<td> <a href="/fiis/XPCA11"> XP Crédito Agrícola Fiagro </a></td>
+<td style="min-width: 125px;">
+<a href="/fiis/XPCA11">
+ <span id="valor_atual_cota" class="row-price">10,05 </span>
+<span id="valor_variacao_cota" class="badge badge-success">+0,3% </span>
+<br>
+<small id="data_cotacao" class="font-body-small text-concrete">17/10/2022 15:59:00 </small>
+</a>
+</td>
+<td> <a href="/fiis/XPCA11"> 17/11/2021 </a></td>
+<script>adiciona_total('val_pat_ult','Valor Patrimonial',203824165.66,'R$','')</script>
+<td> <a href="/fiis/XPCA11"> R$203.824.165,66 </a></td>
+<td> <a href="/fiis/XPCA11"> R$9,49 </a></td>
+<script>adiciona_total('val_mer','Valor de Mercado',215832744.75,'R$','')</script>
+<td> <a href="/fiis/XPCA11"> R$215.832.744,75 </a></td>
+<script>adiciona_total('var_cot_ano','Variação da Cota no Ano',3.93,'','%')</script>
+<td> <a href="/fiis/XPCA11"> 3,93% </a></td>
+<script>adiciona_total('yie_ren_1_mes','Yield de Distribuição 1 Mês',1.39,'','%')</script>
+<td> <a href="/fiis/XPCA11"> 1,39% </a></td>
+<script>adiciona_total('yie_ren_12_mes','Yield de Distribuição 12 Meses',13.13,'','%')</script>
+<td> <a href="/fiis/XPCA11"> 13,13% </a></td>
+<script>adiciona_total('vpa','P/VPA',1.06,'','')</script>
+<td> <a href="/fiis/XPCA11"> 1,06 </a></td>
+<script>adiciona_total('num_cti_ult','Qtde de Cotistas',27320,'','')</script>
+<td> <a href="/fiis/XPCA11"> 27.320 </a></td>
+<td> <a href="/fiis/XPCA11"> XP&nbsp;INVESTIMENTOS </a></td>
+<script>adiciona_total('liq_vol_mes_atu_med','Liquidez Média Diária Mês Atual',2195212.22,'R$','')</script>
+<td> <a href="/fiis/XPCA11"> R$2.195.212,22 </a></td>
+<td> <a href="/fiis/XPCA11"> 0,00% </a></td>
+</tr>
+</tbody>

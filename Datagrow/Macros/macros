@@ -1,0 +1,16 @@
+Sub BRAGRO()
+Dim j As Double
+    For i = 0 To 10  ' Loop que pega o código até o final da coluna
+        k = 92 + i
+        j = Cells(k, 3) ' Pega o valor da coluna 3  e linha k (92 até 103) para armazenar na variável j
+        
+        m = "c" + CStr(k)
+        n = CStr(Chr(99 + i)) + CStr(28)
+        If Range(n) < 0 Then
+        Range(n).GoalSeek Goal:=0, ChangingCell:=Range(m)  'altera a célula Ck para o valor que torna "O28" igual a zero
+        Cells(k, 6) = Cells(k, 3) '
+        Cells(k, 3) = j
+        End If
+        Next i
+
+End Sub
