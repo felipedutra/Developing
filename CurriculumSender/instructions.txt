@@ -1,9 +1,0 @@
-Have the credentials.json in your working directory
-
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
-
-https://developers.google.com/gmail/api/quickstart/python
-https://developers.google.com/gmail/api/guides/sending#python
-
-https://github.com/googleworkspace/python-samples/tree/main/gmail/quickstart
