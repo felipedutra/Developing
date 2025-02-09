@@ -78,6 +78,8 @@ sudo systemctl restart smb
 sudo firewall-cmd --add-service={http,https,samba,plex} --permanent
 sudo firewall-cmd --reload
 
+sudo dnf install yt-dlp
+
 sudo dnf upgrade
 sudo tee /etc/yum.repos.d/plex.repo<<EOF
 [Plexrepo]
